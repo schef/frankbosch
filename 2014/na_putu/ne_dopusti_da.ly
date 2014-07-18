@@ -4,14 +4,16 @@
 
 \header {
   title = "NE DOPUSTI DA"
-  titlex = "NOVI ALBUM"
-  composer = "FRANK BOSCH"
+  titlex = "Na putu"
+  composer = "Frank Bosch"
+  style = "Rimljanima 12,21"
 }
 
 \include "s02_frbo.ily"
 
 noteprvi = \relative c' {
   \key f \major
+  \mark \default
   \voiceOne
   %\override Voice.Rest #'staff-position = #0
   d4 d d d |
@@ -31,8 +33,7 @@ noteprvi = \relative c' {
   g2 f4 g |
   b4. a8 r8 d,8( e f |
   g2 ~ g8) c,8( c' b |
-  a1) |
-  \breathemoj
+  a2.) a4 |
   g2 f4 e |
   e4 d2. |
   \bar "||"
@@ -69,7 +70,7 @@ tekst = \lyricmode {
   Ne do -- pu -- sti da te svla -- da zlo, __ Ne do -- pu -- sti da te svla -- da zlo. __
 
   Oooh __ oooh __ već zlo svla -- daj do -- brim!
-  Oooh __ oooh __ zlo svla -- daj do -- brim!
+  Oooh __ oooh __ već zlo svla -- daj do -- brim!
 
   Bu -- di -- te trije -- zni i bdij -- te: __ Vaš pro -- ti -- vnik, đa -- va -- o, __
   o -- bi -- la -- zi ka -- o ri -- ču -- ći lav, __ tra -- že -- ći ko -- ga da __ pro -- žde -- re.
@@ -85,7 +86,7 @@ akordi = \chordmode {
   d1:m | b2 c2 | d1:m | d1:m |
 
   g2:m c | f d:m | g:m c |
-  f2 d:m | g:m c | f d:m |
+  f1 | g2:m c | f d:m |
   g2:m a | d1:m |
 
   d1:m | c | g:m | b2 a |
