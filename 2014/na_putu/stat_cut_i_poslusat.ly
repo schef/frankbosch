@@ -4,9 +4,8 @@
 
 \header {
   title = "STAT ĆUT I POSLUŠAT"
-  titlex = "NA PUTU"
+  titlex = "Na Putu"
   composer = "Frank Bosch"
-  %bpm = "93"
   style = "Dražen Radman"
 }
 
@@ -14,6 +13,7 @@
 
 note = \relative c'' {
   \key e \major
+  \mark \default
   \repeat volta 2 {
   gis8 gis gis e fis4 dis8 e\( ~ |
   e8 cis ~ cis4\) r4 r8 cis8 |
@@ -25,10 +25,10 @@ note = \relative c'' {
   }
   \alternative{
     {
-      fis8 e ~ e4 r4 r8 h8 |
+      fis8 e ~ e4 r2 |
     }
     {
-      fis'8\repeatTie e ~ e4 r4 \breathemoj gis8 a |
+      fis8\repeatTie e ~ e4 r4 \breathemoj gis8 a |
     }
   }
   
@@ -47,7 +47,7 @@ note = \relative c'' {
   e4 e e e |
   fis4 e8 fis ~ fis fis ~ fis4 |
   gis4 gis gis gis |
-  a4 gis8 a ~ a a gis a |
+  a4 gis8 a ~ a gis a h |
   }
   \alternative{
     {
@@ -58,7 +58,7 @@ note = \relative c'' {
     }
     {
       h4 r4 r2 |
-      a4 r4 gis4 fis8 fis ~ |
+      gis4 r4 gis4 fis8 fis ~ |
       fis8 e ~ e2. |
       r1 |
     }
@@ -73,11 +73,11 @@ po -- ne -- kad me gnja -- vi, lju -- ti __
 "" glas nji -- hov mi tvr -- do zvu -- či __
 ne da -- ju mi sve što vo -- lim __ ""
 
-\skip 8 \skip 8
+\skip 8
 tre -- bam stat' oooh __ čut'  oooh __ i po -- slu -- šat'
 ooh __ stat ćut i po -- slu -- šat
 
-bo -- že, te -- be, riječ ži -- vo -- ta __
+Bo -- že, te -- be, riječ ži -- vo -- ta __
 "s to" -- bom že -- đat' ne -- će du -- ša
 jer si i -- zvor ži -- va vo -- da __
 }
@@ -87,7 +87,7 @@ tekstDva = \lyricmode {
 pro -- fe -- so -- ri sli -- čno zbo -- re __
 "" od -- la -- zi im riječ u vje -- tar __
 "" on -- da mo -- je mi -- sli ho -- de __
-u svijet ču -- dnih ma -- šta, že -- "" "" "-" lja __ ""
+u svijet ču -- dnih ma -- šta, že -- "" "-" lja __ ""
 
 \repeat unfold 16 {\skip 8}
 
@@ -101,14 +101,14 @@ tekstTri = \lyricmode {
 je -- dni ka -- žu: i -- di lije -- vo __
 "" dru -- gi ka -- žu: po -- đi de -- sno
 "" ši -- ro -- kom za -- plo -- vi rije -- kom
-ne -- moj ni -- kad u -- skom ce -- stom pa
+ne -- moj ni -- kad u -- skom ce -- stom
 }
 
 tekstCetiri = \lyricmode {
 ko -- ji on -- da slije -- dit' put __ _
 i či -- ji on -- da slu -- šat' glas __ _
-da ja ne skre -- nem bi -- lo ku -- da __
-od -- go -- vor __ _ tre -- bam zna -- "" "" "-" ti __
+da ja ne skre -- nem bi -- lo kud __ _
+pra -- vi smjer sad tre -- bam znat
 }
 
 akordi = \chordmode {
