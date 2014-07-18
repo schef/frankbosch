@@ -25,7 +25,7 @@
 				\override BreathingSign.font-size = #8				%velicina fonta za zarez
 				\override BreathingSign.text = \markup { \raise #0.2 "," }	%stavi zarez
 				%\override BreathingSign.color = #blue				%boja zareza
-				\override BreathingSign.color = #(rgb-color 0.64 0.57 0.13)
+				\override BreathingSign.color = #(rgb-color 1 0 0)
 		}
 
 		\context {
@@ -33,7 +33,7 @@
 				%\Score markFormatter = #format-mark-circle-numbers			%krug oko broja
 				\override RehearsalMark.self-alignment-X = #CENTER		%pozicija broja na zarez
 				%\override RehearsalMark.color = #blue				%boja rehearsal marka
-				\override RehearsalMark.color = #(rgb-color 0.64 0.57 0.13)
+				\override RehearsalMark.color = #(rgb-color 1 0 0)
 		}
 	}
 
@@ -58,7 +58,7 @@ left = { \once \override LyricText.X-offset = #-2.8 }                 % \left "S
 			%\Score markFormatter = #format-mark-circle-numbers
 			\override RehearsalMark.self-alignment-X = #CENTER
 			%\override RehearsalMark.color = #blue
-			\override RehearsalMark.color = #(rgb-color 0.64 0.57 0.13)
+			\override RehearsalMark.color = #(rgb-color 1 0 0)
 			%\override StaffSymbol.thickness = #0.5
 			%\override Stem.thickness = #2.5
 			%\override Stem.thickness = #10
@@ -102,7 +102,7 @@ left = { \once \override LyricText.X-offset = #-2.8 }                 % \left "S
 
 				\right-column { %stvori desni stupac 
 					\when-property #'header:composer {
-					  \override #'(font-name . "JohnSans White Pro") \override #'(font-size . 1.5) \with-color #red { \fromproperty #'header:composer } }
+					  \override #'(font-name . "JohnSans White Pro") \override #'(font-size . 1.5) \with-color #black { \fromproperty #'header:composer } }
 					\line { %stvori novu liniju unutar donjeg dijela stupca da dobimo odnos 1:n
 						\override #'(font-name . "JohnSans White Pro") \override #'(font-size . 1.5) {
 							\when-property #'header:bpm {
