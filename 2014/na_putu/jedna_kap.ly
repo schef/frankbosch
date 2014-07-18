@@ -4,52 +4,54 @@
 
 \header {
   title = "JEDNA KAP"
-  titlex = "NOVI ALBUM"
-  composer = "FRANK BOSCH"
+  titlex = "Na putu"
+  composer = "Frank Bosch"
+  style = "Dražen Radman"
 }
 
 \include "s02_frbo.ily"
 
 note = \relative c' {
   \key c \major
+  \mark \default
   e4 e e e | f f f g8 g( |
-  e4) r4 r2 |
+  e2) r2 |
   r1 |
   e4 e e e |
   a4 g f e8 e ~ |
-  e4 r4 r2 |
+  e2 r2 |
   r1 |
   f4 f f f8 f ~ |
   f2 g4 a8 a( |
   e8) e ~ e4 r2 |
   r1 |
   f4 f f f ~ |
-  f4 f8 f f e4 d8 ~ |
-  d2 r2 |
+  f4 f8 f f e4 d8( |
+  d2) r2 |
   r2 r4
   \breathemoj
   
-  e16 e8 e16 ~ |
-  e8 c' c c h8 a4 g8 ~ |
-  g4 r4 r4 r8 f8 |
+  e8 e16 e16 ~ |
+  e8 c' c c c8 a4 a8 ( |
+  g2 ) r4 r8 e8 |
   e8 c' c d ~ d c h a |
-  a8( g) r4 r4 r8 f8 |
+  a8( g ~ g4) r4 r8 f8 |
   e8 c' c c d8 c4 h8( ~ |
   h8 a g f) e4 d8 e |
-  f4 f8 f a8 f4 f8 ~ |
-  f8 e ~ e4 r2 |
+  f4 f8 f a8 f4 f8 ( |
+  e8) e ~ e4 r2 |
   \bar "|."
 }
 
 tekst = \lyricmode {
 \set stanza = "1."
-kad sam to -- ga da -- na ču -- o riječ __
+Kad sam to -- ga da -- na ču -- o riječ __
 ma -- kar dije -- te ja sam zna -- o tad __
 da i -- zgu -- bljen sam __ a -- li vo -- ljen __
 da spas tre -- bam __ od go -- spo -- di -- na __
 
 sad u -- mi -- vam o -- braz sr -- ca svog __
-na i -- zvo -- ru bi -- strom bo -- že tvom
+na i -- zvo -- ru bi -- strom Bo -- že tvom
 da o -- draz rije -- či bu -- dem vje -- ran
 je -- dna kap gdje je ne -- tko že -- dan
 
@@ -62,13 +64,13 @@ jer dra -- go -- cje -- na ti si vo -- da
 tekstDva = \lyricmode {
 %\repeat unfold 45 {\skip 8}
 \set stanza = "2."
-kad sam to -- ga da -- na ču -- o riječ __
+Kad sam to -- ga da -- na ču -- o riječ __
 ma -- kar dije -- te ja sam zna -- o tad __
-da sam kri -- stu drag __ da sam vo -- ljen __
+da sam Kri -- stu drag __ da sam vo -- ljen __
 i što i -- mam da je nje -- gov dar __
 
 sad u -- mi -- vam o -- braz sr -- ca svog __
-na i -- zvo -- ru bi -- strom bo -- že tvom
+na i -- zvo -- ru bi -- strom Bo -- že tvom
 jer dra -- go -- cje -- na ti si vo -- da
 ži -- va rije -- ka mir sr -- ca mo -- ga __
 }
@@ -81,8 +83,8 @@ akordi = \chordmode {
   a1:m | f | c | g | a:m | f |
   c1 | g | d:m | d:m | a:m | a:m |
   d1:m | d1:m | g | g | a2:m f |
-  c2 g | a:m f | g1 | a2:m f |
-  g2 c | d1:m | gis:dim |
+  c2 g | a:m f | c2 g2 | a2:m f |
+  g2 c | d1:m | e:7 |
 }
 
 \score {
