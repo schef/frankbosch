@@ -12,55 +12,53 @@
 
 \include "s02_frbo.ily"
 
-note = \relative c' {
-  \key g \minor
-  \partial 8
-  g'8 |
-  \mark \default
-  d'8 d h cis ~ cis4 a8 h8 ~ |
-  h4 r2. |
-  fis'2 e4 e8 d ~ |
-  d8 d4. r2 |
-  d8 d h cis ~ cis cis h a |
-  h2 r8 g8 g a |
-  h4 h cis8 cis a h ~ |
-  h4 r2. |
-  a8 a a a ~ a a h cis |
-  cis8 h r2 r8 h8 |
-  cis8 cis cis cis cis d e d ~ |
-  d4 r4 r2 |
-  a8 a a a h cis ~ cis cis ~ |
-  cis8 h h4 r2 |
-  cis8 cis cis cis d e ~ e e ~ |
-  e8 d d4 r4 cis8 d |
-  \mark \default
-  e4 e fis8 e d cis |
-  d4 d8 fis e d r8 h |
-  cis8 cis cis8 h ~ h a g a |
-  h4 cis d cis8 d |
-  e4 e fis8 e d cis |
-  d4 d8 fis e d r8 h |
-  cis8 cis cis8 h ~ h a g a |
-  h4 a g r4 | \bar "|."
+note = {
+    \key d \minor
+    \partial 8 d'8 |
+    \mark \default a' a' f' g' ~ g'4 e'8 f' ~ |
+    f'2 r2 |
+    c''2 c''4 b'8 b' ~ |
+    b' a'4. r2 |
+    a'8 a' f' g' ~ g' g' f' e' |
+    f'2 r8 d' d' e' |
+    f'4 f' g'8 f' e' f' ~ |
+    f'4 r2. |
+    e'8 e'4 e'8  e' e' f' g' |
+    g' f' ~ f'4 r4 r8 f' |
+    g' g' g' g' g' a' b' a' ~ |
+    a'2 r2 |
+    e'8 e' e' e' f' g'4 g'8 ~ |
+    g' f' f'4 r2 |
+    g'8 g' g' g' a' b'4 b'8 ~ |
+    b' a' a'4 r g'8 a' |
+    \mark \default b'4 b' c''8 b' a' g' |
+    a'4 a'8 f' b' a'4 f'8 |
+    g' g' f' f' ~ f' e' d' e' |
+    f'4 g' a' g'8 a' |
+    b'4 b' c''8 b' a' g' |
+    a'4 a'8 f' b' a' r f' |
+    g' g' f' f' ~ f' e' d' e' |
+    f'4 e' d' r8 
+    \bar "|."
 
 }
 
 akordi = \chordmode {
 \semiGermanChords
 s8 |
-h2:m fis:7 | h1 |
-a1 | d1 |
-h2:m e2:m | h1:m |
-g2 a2 | d1 |
-fis1:7 | h1 | a1 | d1 |
-fis1:7 | h1 | g1 | b:dim |
+d2:m a:7 | d1:m |
+c1 | f1 |
+d2:m g2:m | d1:m |
+b2 c2 | f1 |
+a1:7 | d1:m | c1 | f1 |
+a1:7 | d1:m | b1 | a:7 |
 
-e2:m a |
-d2 h:m |
-e2 fis2:7 | h4:m fis:7 h2:m |
-e2:m a |
-d h:m
-e2 fis2:7 | h4:m fis:7 h2:m |
+g2:m c |
+f2 d:m |
+g2 a2:7 | d4:m a:7 d2:m |
+g2:m c |
+f d:m
+g2 a2:7 | d4:m a:7 d4.:m |
 }
 
 rijeci = \lyricmode {
@@ -79,8 +77,9 @@ jer ku -- da god po -- đeš, "s to" -- bom je Bog tvoj.
 
 \score {
   <<
-  \new ChordNames { \jazzChords \transpose h d \akordi }
-  \new Staff { \transpose g d \note }
+  \new ChordNames { \jazzChords \akordi }
+  \new Staff { \note }
+  %\displayLilyMusic { \transpose g d \note }
   \addlyrics { \rijeci }
   >>
   \layout {}
