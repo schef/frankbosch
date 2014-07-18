@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 
 \header {
-    composer = "FRANK BOSCH"
+    composer = "Frank Bosch"
     title = "BAŠ JE FORA ŠTO TE VIDIM"
     titlex = "Na putu"
     broj = "3."
