@@ -5,6 +5,7 @@
     composer = "FRANK BOSCH"
     title = "BAŠ JE FORA ŠTO TE VIDIM"
     titlex = "Na putu"
+    broj = "3."
 }
 
 \include "s02_frbo.ily"
@@ -18,23 +19,23 @@ note = \relative c' {
     \mark \default
 %    \repeat volta 2 {
 \partial2
-a4 h8 d ~ |
-d8 d ~ d4 e fis8 e ~ |
+a4 h4 |
+d8 d4 e8 ~ e8 fis4 e8 ~ |
 e8 e ~ e4 fis a8 h ~ |
-h8 a ~ a4 fis e8 d ~ |
-d2 a4 h8 d ~ |
-d8 d ~ d4 e fis8 e ~ |
+h4 a4 fis e8 d ~ |
+d2 a4 h4 |
+d4 d4 e8 fis4 e8 ~ |
 e8 e ~ e4 fis4 a8 h ~ |
-h8 a ~ a4 fis4 e8 d ~ |
+h4 a4 fis8 e4 d8 ~ |
 d2 \breathemoj fis4 a |
 
 h4 h h cis8 h ~ |
 h8 a ~ a4 fis4 a8 g ~ |
 g8 fis4 e8 ~ e d4 h8 ~ |
-h2 a4 h8 d ~ |
-d8 d ~ d4 e fis8 e ~ |
-e8 e ~ e4 d e8 fis ~ |
-fis8 e ~ e4 d e8 d ~ |
+h2 a4 h4 |
+d4 d4 e8 fis4 e8 ~ |
+e8 e ~ e4 d8 e4 fis8 ~ |
+fis4 e4 d e8 d ~ |
 d2
 \bar "|."
 }
