@@ -2,9 +2,10 @@
 \include "deutsch.ly"
 
 \header {
-    composer = "FRANK BOSCH"
-    style = "PSALAM 108"
+    composer = "Frank Bosch"
+    style = "Psalam 108,4-6"
     title = "DO NEBA"
+    titlex = "Na putu"
 }
 
 \include "s02_frbo.ily"
@@ -18,8 +19,8 @@ note = \relative c' {
     \mark \default
 %    \repeat volta 2 {
 %    \partial8
-r8 e8 e c d4 f8 d ~ |
-d2 r2 |
+r8 e8 e c d4 f8 e ~ |
+e2 r2 |
 r8 e4 f8 g4\( f8\) f\( ~ |
 f8 e ~ e4\) r2 |
 r8 e8\( e\) c d4\( f8\) e ~ |
@@ -29,7 +30,7 @@ a2 r8 \breathemoj a'4 h8 |
 %\bar ".|:"
 \repeat volta 2 {
 c4 e, r4. c'8 |
-c8\( h a\) h ~ h h ~ h a |
+c8\( h a\) h ~ h h4 a8 |
 h4 e, r8 d'8 d c |
 h8( a) a4 r4. g8 |
 g4 f f2 |
@@ -47,7 +48,9 @@ akordi = \chordmode {
 a2:m d:m | a:m e:7 | a:m g | c  e:7 |
 a2:m d:m | a:m e:7 | a:m e:7 | a1:m |
 a1:m | g | e:7 | a:m |
-f1 | g | c | e:7 | e:7 |
+f1 | g | c | e:7 |
+\set chordChanges = ##f
+e:7 |
 }
 
 kiticaA = \lyricmode {
