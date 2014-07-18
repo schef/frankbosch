@@ -4,8 +4,9 @@
 
 \header {
   title = "BOG ĆE OBRISATI SVAKU SUZU"
-  titlex = "NOVI ALBUM"
-  composer = "FRANK BOSCH"
+  titlex = "Na putu"
+  composer = "Frank Bosch"
+  style = "Otkrivenje 20,4+5b+6"
 }
 
 \include "s02_frbo.ily"
@@ -16,12 +17,12 @@ note = \relative c'' {
   \key f \major
   b8. b16 ~ b8 b16 c ~ c8 b a g |
   a8. a16 ~ a4 r2 |
-  g8. a16 ~ a g8 b16 ~ b4 a8. a16 ~ |
+  g8. a16 ~ a8 g8 b4 a8 a8 ~ |
   a2 r2 |
-  b8. b16( ~ b8 b16) c ~ c8 b a g |
+  b8. b16( ~ b8 c) c8 b16 a ~ a8 g |
   a8. a16 ~ a4 r2 |
-  g8 g16 g ~ g g8 a16 ~ a8 g f e ~ |
-  e8 d ~ d4 r4 r8 f8 |
+  g8 g16 g ~ g g8 a16 ~ a8 g4 f8 |
+  e8. d16 ~ d4 r4 r8 f8 |
   \breathemoj
   
   \repeat volta 2 {
@@ -43,9 +44,9 @@ note = \relative c'' {
   f8 e ~ e4 r2 |
   a8 a a a a4 g8 g ~ |
   g8 f ~ f4 r4 d8 f |
-  g8 g4 g8 g4 f8 e ~ |
+  g4 g8 g8 g4 f8 e ~ |
   e2 r8 c8 c c |
-  g'8. a16 ~ a4 r4 b8 a16 g ~ |
+  g'8. a16 ~ a4 r8 b ~ b8 a16 g ~ |
   g8 f ~ f4 r2 |
   \bar "|." 
 }
