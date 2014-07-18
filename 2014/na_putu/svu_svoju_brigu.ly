@@ -2,8 +2,10 @@
 \include "deutsch.ly"
 
 \header {
-    composer = "FRANK BOSCH"
+    composer = "Frank Bosch"
     title = "SVU SVOJU BRIGU"
+    titlex = "Na putu"
+    style = "1. Petrova 5,7; Matej 6,26+6,8"
 }
 
 \include "s02_frbo.ily"
@@ -108,7 +110,7 @@ jer se on bri -- ne za vas. __
 kiticaB = \lyricmode {
 %\set stanza = #"2. "
 Ne bri -- ni -- te se
-jer i pri -- je ne -- go što za -- mo -- li -- te
+jer i pri -- je ne -- go ga za -- mo -- li -- te
 zna O -- tac vaš,
 što vam je po -- tre -- bno. 
 }

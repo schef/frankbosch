@@ -7,6 +7,7 @@
   titlex = "Na putu"
   composer = "Frank Bosch"
   %style = ""
+  broj = "1."
 }
 
 \include "s02_frbo.ily"
