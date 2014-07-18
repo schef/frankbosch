@@ -4,8 +4,9 @@
 
 \header {
   title = "BLIZU JE JAHVE"
-  titlex = "NOVI ALBUM"
-  composer = "FRANK BOSCH"
+  titlex = "Na putu"
+  composer = "Frank Bosch"
+  style = "Psalam 34,18-20"
 }
 
 \include "s02_frbo.ily"
@@ -13,10 +14,11 @@
 note = \relative c'' {
   \key d \major
   \time 6/8
+  \mark \default
   h8 c d e fis g |
   a8 h a h4. |
   h8 a g fis e d |
-  e8 d c h4. |
+  c 8 d c h4. |
   h8 a g fis e d |
   c16 e d c h a h4. |
   \breathemoj
@@ -24,11 +26,9 @@ note = \relative c'' {
   d'8 cis h cis4 a8 |
   h8( a) g fis4. |
   g8 fis e fis g fis |
-  fis8 e4 r4 a8 |
-  e8 fis e e d cis |
+  fis8 e4 r4 a,8 |
+  e'8 fis e e d cis |
   cis8 h4 r4. |
-  \breathemoj
-  
   e4. ~ e8 d cis |
   cis8 h4 r8
   \breathemoj
@@ -39,7 +39,7 @@ note = \relative c'' {
   d8\( d d\) cis4 cis8 |
   cis8 h4 r8 h8 cis |
   d8 d d d4 d8 |
-  e4 fis8 e8 h\( cis\) |
+  e4 fis8 fis8 e\( e\) |
   d4. e4 g8 |
   g8 fis4 r4. |
   \bar "|."
@@ -49,9 +49,9 @@ tekst = \lyricmode {
 %\set stanza = "1."
 \repeat unfold 33 {\skip 8}
 Bli -- zu je Ja -- hve o -- ni -- ma ko -- ji su slo -- mlje -- na sr -- ca,
-a klo -- nu -- le du -- še spa -- ša -- va. Ja -- hve je bli -- zu
+a klo -- nu -- le du -- še spa -- ša -- va. Ja -- hve je bli -- zu __
 
-_ _ Pra -- ve -- dni -- ci za -- zi -- va -- ju, i __ _ Ja -- _ _ __ hve ih ču -- je
+_ _ Pra -- ve -- dni -- ci za -- zi -- va -- ju, i __ _ Ja -- _ _ __ hve ih ču -- je __
 _ _ i -- zba -- vlja ih iz svih tje -- sko -- ba. __ _ Ja -- hve je bli -- zu.
 }
 
