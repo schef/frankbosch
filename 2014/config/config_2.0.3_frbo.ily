@@ -110,7 +110,7 @@ left = { \once \override LyricText.X-offset = #-2.8 }                 % \left "S
 								{ "BPM" "|" }
 							}
 							\when-property #'header:style {
-							\with-color #red    
+							\with-color #black   
 								{ \fromproperty #'header:style }
 							}
 						}
