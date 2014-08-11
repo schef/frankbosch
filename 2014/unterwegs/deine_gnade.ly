@@ -19,10 +19,10 @@ note = \relative c' {
     \mark \default
 %    \repeat volta 2 {
 %    \partial8
-r8 e8 e c d4 f8\( e ~ |
-e2\) r2 |
-r8 e8 e8 f8 g4\( f8\) f\( ~ |
-f8 e ~ e4\) r2 |
+r8 e8 e c d4 f8 e ~ |
+e2  r2 |
+r8 e8 e8 f8 g4\( f8\) f( |
+e2) r2 |
 r8 e8 e c d4 f8 e ~ |
 e2 r2 |
 r8 e8\( e8\) c8 d4\( c8\) a ~ |
@@ -30,9 +30,9 @@ a2 r8 \breathemoj a'8 a8 h8 |
 %\bar ".|:"
 \repeat volta 2 {
 c4 e, r8 c'4 c8 |
-c8\( h a\) h ~ h h ~ h a |
+c8\( h a\) h ~ h h4 a8 |
 h4 e, r8 d'4 c8 |
-h8\(( a) a4\) r8 a8 a8 g8 |
+h4( a) r8 a8 a8 g8 |
 g8( f8) f2 r8 f8 |
 g4 a4 g4 f8 f( |
 e1) |
@@ -46,7 +46,7 @@ e1) |
 akordi = \chordmode {
    \set chordChanges = ##t
 a2:m d:m | a:m e:7 | a:m g | c  e:7 |
-a2:m d:m | a:m e:7 | a:m e:7 | a1:m |
+a2:m d:m | a1:m | a2:m e:7 | a1:m |
 a1:m | g | e:7 | a:m |
 f1 | g | c | e:7 | e:7 |
 }
@@ -54,20 +54,20 @@ f1 | g | c | e:7 | e:7 |
 kiticaA = \lyricmode {
 \set stanza = #"1. "
 %\skip4 \skip4
-Ich will dir dan -- ken, Herr, __ un -- ter den Völ -- _ kern, __ _
+Ich will dir dan -- ken, Herr, __ un -- ter den Völ -- _ kern, __
 Ich will dir lob -- sin -- gen __  un -- ter den Leu -- _ ten. __
 }
 
 ref = \lyricmode {
 Denn dei -- ne Gna -- de, Dei -- ne Gna -- _ _ de
-reicht so weit der Hi -- mmel ist. __ _
+reicht so weit der Hi -- mmel ist. __
 Und dei -- ne Treu -- e, so weit die Wol -- ken gehn'. __
 Denn dei -- ne
 }
 
 kiticaB = \lyricmode {
 \set stanza = #"2. "
-Er -- he -- be Dich, Gott, __ _ ü -- ber den Hi -- _ mmel __ _
+Er -- he -- be Dich, o Gott, __ ü -- ber den Hi -- _ mmel __
 und dei -- ne Herr -- lich -- keit __ ü -- _ ber a -- lle Welt. __
 }
 
