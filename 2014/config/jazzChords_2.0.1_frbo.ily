@@ -127,7 +127,7 @@ jazzChords =
 {
   \set chordNameExceptions = #jazzChordsAdd
   \set chordRootNamer = #(chord-name->semi-german-markup #f)
-  \set chordNoteNamer = #note-name->uppercase-semigerman-markup
+  %\set chordNoteNamer = #note-name->uppercase-semigerman-markup
   %\set chordNoteNamer = #note-name->german-markup
   \override ChordName #'font-size = 3
   \override ChordName #'font-name = "Lilypond JohnSans Medium Pro"

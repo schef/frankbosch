@@ -21,7 +21,7 @@
 	\layout {
 		\context {
 			\Voice
-				\override BreathingSign.font-name = #"Helvetica"			%font za zarez
+				%\override BreathingSign.font-name = #"Helvetica"			%font za zarez
 				\override BreathingSign.font-size = #8				%velicina fonta za zarez
 				\override BreathingSign.text = \markup { \raise #0.2 "," }	%stavi zarez
 				%\override BreathingSign.color = #blue				%boja zareza
