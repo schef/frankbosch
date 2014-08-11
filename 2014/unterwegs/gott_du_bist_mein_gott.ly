@@ -12,7 +12,9 @@
 \include "s02_frbo.ily"
 
 note = \relative c' {
+  \tempo 4 = 99
   \key f \major
+  \mark \default
   d8 a' g f e4 r4 |
   e8( f) g g ~ g f4 f8 |
   d'8 d d c c g g b( ~ |
@@ -119,23 +121,23 @@ akordi = \chordmode {
 \midi { \tempo 4 = 99 }
 }
 
-\markup {
-\vspace #2
-\smaller \italic Leadsheet: \hspace #2
-		\huge {
-		\rounded-box {
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold { \teeny \italic {intro} Dm x3 } }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \italic \teeny strophe }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) { \teeny \italic bridge } }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold{\italic \teeny refrain }}
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \italic \teeny kitica }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) { \teeny \italic bridge } }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold{ \italic \teeny refren} }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold { \teeny \italic refren } }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \teeny \italic outro }
-		}
-	}
-}
+%\markup {
+%\vspace #2
+%\smaller \italic Leadsheet: \hspace #2
+%		\huge {
+%		\rounded-box {
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold { \teeny \italic {intro} Dm x3 } }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \italic \teeny strophe }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) { \teeny \italic bridge } }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold{\italic \teeny refrain }}
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \italic \teeny kitica }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) { \teeny \italic bridge } }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold{ \italic \teeny refren} }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold { \teeny \italic refren } }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \teeny \italic outro }
+%		}
+%	}
+%}
 
 %{
 convert-ly (GNU LilyPond) 2.18.2  convert-ly: Processing `'...
