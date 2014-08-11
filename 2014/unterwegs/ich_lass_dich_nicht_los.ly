@@ -13,16 +13,17 @@
 
 note = \relative c'' {
   \key c \major
+  \mark \default
   g2( a) |
   g8 f e d ~ d4. d8 |
-  e4 c8 a ~ a f'4 f8( |
+  e4 c8 a ~ a f'4 e8( |
   e2) r2 |
   g2( a) |
   g8 f e d( d4.)
   \breathemoj
   
   d8 |
-  e4 c8 a ~ a8 d4 d8( |
+  e4 c8 a ~ a8 d4 c8( |
   c2) r4 r8 
   \breathemoj  
   c |
