@@ -14,17 +14,18 @@
 note = \relative c' {
   \key d \major
   \time 3/4  
+  \mark \default
   d4 d d8 e |
   d2 d8 e |
   fis4 e4. d8 |
   d2. |
-  e4 e e8( fis) |
+  e4 e e8 fis  |
   e2 d8 e |
   fis4 e4. d8 |
   e2. |
   d4 d d8 e |
   d2 d8 e |
-  fis4 e4. d8 |
+  fis4 e4 d4 |
   d2 e8 fis |
   g4 g g |
   fis4 g fis |
@@ -34,7 +35,7 @@ note = \relative c' {
   \breathemoj a4 g fis |
   e2. |
   d4 e fis |
-  e2. |
+  fis8( e ~ e2) |
   a4( g) fis |
   e2 r8 d8 |
   h'4 a g |
@@ -49,38 +50,42 @@ note = \relative c' {
   r2 r8 a8 |
   a4( g) fis |
   e2 d8 d |
-  h'4( a g) |
+  h'4( a) g |
   fis2. |
   fis4 g fis |
-  e2 r8 d8 |
+  e2 d4 |
   d2. |
   r2. |
-  \bar "|"
+  \bar "|."
 }
 
 tekst = \lyricmode {
 %\set stanza = "1."
+Manch -- mal fehlt der Mut, wirk -- lich vor -- wärts zu gehen.
+Vor dir ist dann nur ei -- ne Mau -- er zu sehen.
+Hil -- fe fin -- dest du bei dem E -- wi -- gen Gott.
+Sei -- ne Wor -- te sind Trost in der Not:
 
-Manch -- mal fragst Du Dich, was hat Gott mit mir vor?
-Zwei -- felnd fühlst Du Dich , wie auf We -- gen durchs Moor.
-Äng -- stlich rufst Du aus: Herr ich seh´ den Weg nicht.
-Doch ver -- giss nicht was Gott dir ver -- spricht:
+„Fürch -- te dich nicht, ich bin mit dir; 
+wei -- che nicht, denn ich bin dein Gott. 
+Ich stär -- ke dich, ich hel -- fe dir auch, 
+ich hal -- te dich durch die rech -- te Hand 
+mei -- ner Ge -- rech -- tig -- keit.“
 
-Fürchte dich nicht, ich bin mit dir
-weiche nicht, denn ich bin dein Gott. 
-Ich stärke dich, ich helfe dir auch, 
-ich halte dich durch die rechte Hand 
-Meiner Gerechtigkeit.
 
-„Fürchte dich nicht, ich bin mit dir; 
-weiche nicht, denn ich bin dein Gott. 
-Ich stärke dich, ich helfe dir auch,
-ich halte dich durch die rechte Hand meiner 
-Gerechtigkeit.“
+
+%„Fürchte dich nicht, ich bin mit dir; 
+%weiche nicht, denn ich bin dein Gott. 
+%Ich stärke dich, ich helfe dir auch, 
+%ich halte dich durch die rechte Hand meiner Gerechtigkeit.“ 2x Jes. 41,10
 }
 
 tekstDva = \lyricmode {
 %\repeat unfold 45 {\skip 8}
+Manch -- mal fragst Du Dich, was hat Gott mit mir vor?
+Zwei -- felnd fühlst Du Dich, wie auf We -- gen durchs Moor.
+Ängst -- lich rufst Du aus: Herr ich seh´ den Weg nicht.
+Doch ver -- giss nicht was Gott dir ver -- spricht:
 
 }
 
@@ -91,7 +96,7 @@ tekstDva = \lyricmode {
 akordi = \chordmode {
   d2. | d:maj7 | g | d | e:m | e:m |
   g2. | a | d | d:maj7 | g | d |
-  e2.:m | g | a:sus4 | a | d | a | g |
+  e2.:m | g/d | a:sus4 | a | d | a/d | g |
   a2. | d | a | g | a | g | 
   fis2.:m | g | a | g | fis:m | g | a |
   d2. | a | g | d | g | a | d | d |
