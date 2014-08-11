@@ -19,20 +19,20 @@ note = \relative c'' {
     \mark \default
 %    \repeat volta 2 {
 %    \partial8
-c2 b4 a4 |
-g2 a4( b4) |
+c4. b8 ~ b4 a4 |
+g4. a8 ~ a4( b4) |
 c4 c b a |
 g4\(( f) f2\) |
-r4 a2 a4 |
-c2( b4) a8 a ~ |
+r4 a4 ~ a8 b4. |
+c4.( b8 ~ b4) a8 a ~ |
 a2 r2 |
 r1 |
-c2 b4 a4 |
-g2 a4( b4) |
-c2( b4) a4 |
+c4. b8 ~ b4 a4 |
+g4. a8( ~ a4  b4) |
+c4.( b8 ~ b4) a4 |
 g4\(( f) f2\) |
-r4 a2 b4 |
-a2( g4) f8 f ~ |
+r4 a4 ~ a8 b4. |
+a4.( g8 ~ g4) f8 f ~ |
 f2 r2 |
 r1 |
 \bar "||"
@@ -40,12 +40,12 @@ r1 |
 
 \mark \default
 r4 f4 f4 f4 |
-e4 e4 r2 |
+e4 e4 r4 f ~ |
 f4 f f8 d4 c8 ~ |
 c2 r2 |
-r4 f8 f8 ~ f4 f8 g ~ |
-g4 f e f |
-e4( d2.) |
+r4 r8 f8 f8 f4 g8 ~ |
+g4. f8 e4 f8 e( ~ |
+e4 d2.) |
 r1 |
 r4 f4 f4 f |
 e4 e f g |
@@ -59,7 +59,7 @@ r2 r4 d4 |
 %\break
 
 \mark \default
-b'1 |
+b'2 b |
 b2 a |
 g1 |
 r2 a4 b |
@@ -72,7 +72,7 @@ b2 a |
 g1 |
 r1 |
 r4 f4 g a |
-a2 g4( f) |
+a( g2) f8 f~  |
 f1 |
 r1 |
 \bar "|."
@@ -80,9 +80,9 @@ r1 |
 
 akordi = \chordmode {
    \set chordChanges = ##t
-f1 | c | d:m | b | d:m | c |
-f | b2 c2 |
-f1 | c | d:m | b | d:m | c |
+f1 | c | d:m | b | f | c |
+d:m | b2 c2 |
+f1 | c | d:m | b | f | c |
 f1 | f |
 
 d1:m | c | b | f | d:m | c | b | b |
@@ -107,10 +107,10 @@ All eu -- re Sor -- ge __ werft  auf Ihn; __ _ denn Er sorgt für euch.
 
 kiticaB = \lyricmode {
 %\set stanza = #"2. "
-So sorgt euch doch nicht
+So sor -- get euch doch nicht
 Denn be -- vor ihr bi -- ttet weiß der Va -- ter schon
 Was euch be -- drückt 
-Und a -- lles was ihr __ braucht.
+Und a -- lles was ihr braucht.
 
 }
 
