@@ -128,12 +128,12 @@ akordi = \chordmode {
   e2. h/e e/gis a cis:m fis4 fis:m h e2 a4/e e2.
   e2. cis:m a e cis:m fis2 h4 e2. e2.
   %modulacija
-  f2. c/f f/a h d:m g g:m c
+  f2. c/f f/a b d:m g g:m c
   f2. c/f f/a b d:m g4 g:m c f2 b4/f f2.
-  f2. d:m b f d:m g2 c4 f2.
+  f2. d:m b f d:m g2 c4 f2. f
   %bridge
   d2.:m c f c/e f b2 g4:m c2.
-  f d:m c f c/e f b2 g4:m c2. f2. f2.
+  f d:m c f c/e f b2 g4:m c2. f2.
   %modulacija
   a2. e/a a/cis d fis:m h h:m e
   a2. e/a a/cis d fis:m h4 h:m e a2 d4/a a2.
@@ -141,22 +141,22 @@ akordi = \chordmode {
 
 rijeci = \lyricmode {
   Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt
+  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt.
 
-  Geht an die Hec -- ken, geht an die Zäu -- ne,  geht auf die Stra -- ßen, geht auf die Plät -- ze
+  \set stanza = "1." Geht an die Hec -- ken, geht an die Zäu -- ne,  geht auf die Stra -- ßen, geht auf die Plät -- ze
   Und la -- det sie ein in mein Haus.
   
   Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt
+  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt.
   
-  Geht zu den Star -- ken, geht zu den Herr -- schern geht zu den Rei -- chen geht zu den Sa -- tten.
-  Und la -- det sie ein in mein Haus
+  \set stanza = "3." Geht zu den Star -- ken, geht zu den Herr -- schern geht zu den Rei -- chen geht zu den Sa -- tten.
+  Und la -- det sie ein in mein Haus.
   
   Das E -- van -- ge -- li -- um muss ver -- kün -- digt wer -- den un -- ter a -- llen Völ -- kern
-  Und sie -- he ich bin bei Euch, a -- lle Ta -- ge bis an der Welt En -- de
+  Und sie -- he ich bin bei Euch, a -- lle Ta -- ge bis an der Welt En -- de.
   
   Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt
+  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt.
 }
 
 rijeciDva = \lyricmode {
@@ -172,7 +172,7 @@ rijeciDva = \lyricmode {
 
 rijeciTri = \lyricmode {
   \repeat unfold 29 _
-  Geht zu den Kin -- dern, gebt ih -- nen Hoff -- nung, gebt ih -- nen Glau -- ben, gebt ih -- nen Lie -- be
+  \set stanza = "2." Geht zu den Kin -- dern, gebt ih -- nen Hoff -- nung, gebt ih -- nen Glau -- ben, gebt ih -- nen Lie -- be
   Und la -- det sie ein in mein Haus.
 }
 
@@ -191,5 +191,6 @@ rijeciCetiri = \lyricmode {
     \addlyrics { \rijeciTri }
     \addlyrics { \rijeciCetiri }
   >>
-  %\midi {}
+  \layout {}
+  \midi {\tempo 4 = 240}
 }
