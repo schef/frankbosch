@@ -2,88 +2,86 @@
 \include "deutsch.ly"
 
 \header {
-    composer = "FRANK BOSCH"
-    stylex = "PSALAM 108"
-    title = "DO NEBA"
+  composer = "FRANK BOSCH"
+  style = ""
+  title = "EINFACH SUPER DICH ZU SEHEN"
+  titlex = "Unterwegs"
 }
 
 \include "s02_frbo.ily"
 
 note = \relative c' {
-    \tempo 4 = 120
-    \key a \minor
-%    \set Score.markFormatter = #format-mark-box-letters
-    
-    %dio A
-    \mark \default
-%    \repeat volta 2 {
-%    \partial8
-r8 e8 e c d4 f8 d ~ |
-d2 r2 |
-r8 e4 f8 g4\( f8\) f\( ~ |
-f8 e ~ e4\) r2 |
-r8 e8\( e\) c d4\( f8\) e ~ |
-e2 r2 |
-r8 e8 e8 c8 d4\( c8\) a ~ |
-a2 r8 \breathemoj a'4 h8 |
-%\bar ".|:"
-\repeat volta 2 {
-c4 e, r4. c'8 |
-c8\( h a\) h ~ h h ~ h a |
-h4 e, r8 d'8 d c |
-h8( a) a4 r4. g8 |
-g4 f f2 |
-g4 g8( a) g4 f8 f( |
-e1) |
-}
-\alternative {
-{r2 r8 a4 h8}
-{r1 \bar "|."}
-}
+  \tempo 4 = 148
+  \key d \major
+  %\set Score.markFormatter = #format-mark-box-letters
+  
+  %dio A
+  \mark \default
+  %    \repeat volta 2 {
+  \partial2
+  a4 h |
+  d8 d ~ d4 e fis8 e ~ |
+  e8 e ~ e4 fis a8 h ~ |
+  h4 a fis e8 d ~ |
+  d2 a4 h8 d ~ |
+  d4 d e fis8 e ~ |
+  e8 e ~ e4 fis a8 h ~ |
+  h4 a fis e8 d ~ |
+  d2 \breathemoj fis4 a8 h ~ |
+  h4 h h cis8 h ~ |
+  h8 a ~ a4 fis4 a8 g ~ |
+  g4 fis e8 d4 h8 ~ |
+  h2 a4 h8 d ~ |
+  d4 d e fis8 e ~ |
+  e8 e ~ e4 d e8 fis ~ |
+  fis4 e d8 e4. |
+  d2 
+  \bar "|."
 }
 
 akordi = \chordmode {
-   \set chordChanges = ##t
-a2:m d:m | a:m e:7 | a:m g | c  e:7 |
-a2:m d:m | a:m e:7 | a:m e:7 | a1:m |
-a1:m | g | e:7 | a:m |
-f1 | g | c | e:7 | e:7 |
+  \set chordChanges = ##t
+  \skip 2
+  d1 | a | g2 a | d1 |
+  d1 | a | g2 a | d1 | h:m |
+  fis1:m | g | e:m | d | a |
+  g2 a | d2 
 }
 
 kiticaA = \lyricmode {
-\set stanza = #"1. "
-%\skip4 \skip4
-Hva -- lit ću te, Bo -- že, __ me -- đu na -- ro -- di -- ma,
-me -- _ đu pu -- ci -- ma __ te -- bi ću pje -- va -- ti, __
+  \set stanza = #"1. "
+  %\skip4 \skip4
+  Ein -- fach su -- per Dich zu se -- hen komm und mach doch ein -- fach mit
+  Ich schenk dir mein schön -- stes Lä -- cheln denn das ist doch echt der Hit!
 }
 
 ref = \lyricmode {
-jer do ne -- ba, do ne -- _ _ ba je __ do -- bro -- ta,
-do -- bro -- ta tvo -- ja, do o -- bla -- ka tvo -- ja __ vjer -- nost je. __
-Jer do
+  Gott ist auf die Welt ge -- ko -- mmen weil er es nicht la -- ssen kann
+  Uns zu lie -- ben und be -- schen -- ken, Leu -- te lasst Ihn an euch ran.
 }
 
 kiticaB = \lyricmode {
-\set stanza = #"2. "
-Uz -- vi -- si se, Bo -- že, __ nad ne -- be -- _ sa, __ _  
-nek sla -- va tvo -- _ ja __ je nad svom ze -- _ mljom!
+  \set stanza = #"2. "
+  Mit dem Zei -- ge -- fin -- ger wink ich und be -- grü -- ße dich da -- mit
+  Mit der rech -- ten Hand wink ich Dir Mensch das ist doch echt der Hit!
 }
 
-%kiticaC = \lyricmode {
-%\set stanza = #"3. "
-%\skip4 \skip4
-%}
+kiticaC = \lyricmode {
+  \set stanza = #"3. "
+  Nun dreh ich mich um mich sel -- ber und be -- grü -- ße dich da -- mit
+  Je -- dem geb ich mei -- ne Hän -- de, Leu -- te das ist echt der Hit!
+}
 
 \score {
-	<<
-	\new ChordNames { \semiGermanChords \jazzChords \akordi }
-	\new Staff { \note }
-        \addlyrics { \kiticaA \ref }
-        \addlyrics { \kiticaB }
-%        \addlyrics { \kiticaC }
-	>>
-%	\midi {}
-	}
+  <<
+    \new ChordNames { \semiGermanChords \jazzChords \akordi }
+    \new Staff { \note }
+    \addlyrics { \kiticaA \ref }
+    \addlyrics { \kiticaB }
+    \addlyrics { \kiticaC }
+  >>
+  %	\midi {}
+}
 
 
 %{
