@@ -2,7 +2,7 @@
 \include "deutsch.ly"
 
 \header {
-  composer = "FRANK BOSCH"
+  composer = "Frank Bosch"
   style = ""
   title = "EINFACH SUPER DICH ZU SEHEN"
   titlex = "Unterwegs"

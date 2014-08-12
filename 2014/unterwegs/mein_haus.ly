@@ -1,5 +1,6 @@
 %Lilypond test za Kao ruza
 \version "2.18.0"
+\include "deutsch.ly"
 
 \header {
   %title = "MEIN HAUS SOLL EIN BETHAUS SEIN"

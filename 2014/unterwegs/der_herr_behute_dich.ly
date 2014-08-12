@@ -1,5 +1,5 @@
 \version "2.18.0"
-
+\include "deutsch.ly"
 %\language "deutsch"
 
 \header {
@@ -14,13 +14,14 @@
 note = \relative c' {
   \key c \major
   \partial 8
+  \mark \default
   g8 |
   c4. c8 d c d g, |
   e'4 e8 e f e f g |
   g8 e ~ e4 r4 d8 c16 c ~ |
   c2 r4 r8 g8 |
   c4. c8 d( c) d g, |
-  e'4 e8 e f( e) f g16 g |
+  e'4 ~ e8 e f( e) f g16 g |
   g8( e4.) r4 r8 d8 |
   c2 r4 r8
   \breathemoj
@@ -40,9 +41,11 @@ note = \relative c' {
 tekst = \lyricmode {
 %\set stanza = "1."
 Der HERR be -- hü -- tet dich;
-der HERR ist dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
-dass dich des Ta -- ges die So -- nne nicht ste -- che
-noch der Mond des Nachts.
+%der HERR ist dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
+der HERR sei dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
+dass dir die So -- nne am Tag nicht scha -- ded noch der Mond bei Nacht.
+%dass dich des Ta -- ges die So -- nne nicht ste -- che
+%noch der Mond des Nachts.
 
 Der HERR be -- hü -- te dich vor a -- llem Ü -- bel,
 er be -- hü -- te dei -- ne See -- le.
@@ -50,10 +53,10 @@ Der HERR be -- hü -- te dei -- nen Aus -- gang und Ein -- gang
 von nun an bis in E -- wig -- keit!
 }
 
-tekstDva = \lyricmode {
+%tekstDva = \lyricmode {
 %\repeat unfold 45 {\skip 8}
 
-}
+%}
 
 %tekstTri = \lyricmode {
 
@@ -73,7 +76,7 @@ akordi = \chordmode {
     \new ChordNames { \jazzChords \akordi }
     \new Staff { \note }
     \addlyrics { \tekst }
-    \addlyrics { \tekstDva }
+%    \addlyrics { \tekstDva }
 %    \addlyrics { \tekstTri }
   >>
   \layout {}

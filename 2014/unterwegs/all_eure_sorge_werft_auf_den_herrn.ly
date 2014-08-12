@@ -2,8 +2,9 @@
 \include "deutsch.ly"
 
 \header {
-    composer = "FRANK BOSCH"
+    composer = "Frank Bosch"
     title = "ALL EURE SORGE"
+    titlex = "Unterwegs"
     style = "1. Petrus 5,7; Matth. 6,8+26"
 }
 
@@ -132,21 +133,21 @@ Und a -- lles was ihr braucht.
 	}
 
 
-\markup {
-\vspace #2
-\smaller \italic Leadsheet: \hspace #2
-		\huge {
-		\rounded-box {
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny vers }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny vers }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
-			\line { \pad-to-box #'(0 . 0) #'(0 . 2.05) 3 \teeny \italic bridge }
-			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold { 1 \italic \teeny chorus \bold \tiny ×2 } }
-		}
-	}
-}
+%\markup {
+%\vspace #2
+%\smaller \italic Leadsheet: \hspace #2
+%		\huge {
+%		\rounded-box {
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny vers }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny vers }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 2.05) \bold { 1 \teeny \italic chorus } }
+%			\line { \pad-to-box #'(0 . 0) #'(0 . 2.05) 3 \teeny \italic bridge }
+%			\line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) \bold { 1 \italic \teeny chorus \bold \tiny ×2 } }
+%		}
+%	}
+%}
 
 
 %{
