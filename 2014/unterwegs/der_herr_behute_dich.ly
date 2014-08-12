@@ -34,6 +34,7 @@ note = \relative c' {
   g8( e4.) r4 r8 d8 |
   c2 r4 r8
 
+\once \override Staff.BarLine #'extra-spacing-width = #'(-5 . 3)
 \breathemoj
   
   g'8 |
