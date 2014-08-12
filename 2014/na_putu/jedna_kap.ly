@@ -36,6 +36,7 @@ note = \relative c' {
   f4 f8 f f e4 d8( |
   d2) r2 |
   r2 r4
+  \noBreak
   \breathemoj
   
   e8 e16 e16 ~ |

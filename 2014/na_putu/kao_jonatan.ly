@@ -23,9 +23,9 @@ note = \relative c' {
   \partial4
   c8 d |
   \once \override Score.RehearsalMark.color = #black
-  \override Score.RehearsalMark.self-alignment-X = #LEFT
-  \override Score.BarNumber.break-visibility = #all-invisible
-  \override Score.RehearsalMark.padding = #4
+  \once \override Score.RehearsalMark.self-alignment-X = #LEFT
+  \once \override Score.BarNumber.break-visibility = #all-invisible
+  \once \override Score.RehearsalMark.padding = #4
   \once \override Score.RehearsalMark.X-offset = #-12
   \rhythmMark #"Swing" \rhyMarkIIEighths \rhyMarkSlurredTriplets
   f8 f f d as' f ~ f4 |

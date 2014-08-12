@@ -47,7 +47,8 @@ note = \relative c'' {
   gis8 fis ~ fis4 r2 |
   \bar ".|:"
   
-  \breathemoj
+  \once \override Score.RehearsalMark.Y-offset = #0.35
+  \mark \default
   \repeat volta 2 {
     e4 e e e |
     fis4 e8 fis ~ fis fis ~ fis4 |
