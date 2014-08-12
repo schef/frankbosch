@@ -13,8 +13,17 @@
 
 note = \relative c' {
   \key c \major
-  \partial 8
+
+
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+  \once \override Score.MetronomeMark.padding = #4
+  \tempo 4 = 74
+  
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.7
+  \once \override Score.RehearsalMark.padding = #0.7
   \mark \default
+  \partial 8
   g8 |
   c4. c8 d c d g, |
   e'4 e8 e f e f g |
@@ -24,7 +33,8 @@ note = \relative c' {
   e'4 ~ e8 e f( e) f g16 g |
   g8( e4.) r4 r8 d8 |
   c2 r4 r8
-  \breathemoj
+
+\breathemoj
   
   g'8 |
   c4. c8 h8 a g e |
@@ -39,18 +49,18 @@ note = \relative c' {
 }
 
 tekst = \lyricmode {
-%\set stanza = "1."
-Der HERR be -- hü -- tet dich;
-%der HERR ist dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
-der HERR sei dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
-dass dir die So -- nne am Tag nicht scha -- ded noch der Mond bei Nacht.
-%dass dich des Ta -- ges die So -- nne nicht ste -- che
-%noch der Mond des Nachts.
+  %\set stanza = "1."
+  Der HERR be -- hü -- tet dich;
+  %der HERR ist dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
+  der HERR sei dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
+  dass dir die So -- nne am Tag nicht scha -- ded noch der Mond bei Nacht.
+  %dass dich des Ta -- ges die So -- nne nicht ste -- che
+  %noch der Mond des Nachts.
 
-Der HERR be -- hü -- te dich vor a -- llem Ü -- bel,
-er be -- hü -- te dei -- ne See -- le.
-Der HERR be -- hü -- te dei -- nen Aus -- gang und Ein -- gang
-von nun an bis in E -- wig -- keit!
+  Der HERR be -- hü -- te dich vor a -- llem Ü -- bel,
+  er be -- hü -- te dei -- ne See -- le.
+  Der HERR be -- hü -- te dei -- nen Aus -- gang und Ein -- gang
+  von nun an bis in E -- wig -- keit!
 }
 
 %tekstDva = \lyricmode {
@@ -76,8 +86,8 @@ akordi = \chordmode {
     \new ChordNames { \jazzChords \akordi }
     \new Staff { \note }
     \addlyrics { \tekst }
-%    \addlyrics { \tekstDva }
-%    \addlyrics { \tekstTri }
+    %    \addlyrics { \tekstDva }
+    %    \addlyrics { \tekstTri }
   >>
   \layout {}
 }
