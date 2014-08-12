@@ -29,7 +29,7 @@ note = \relative c'' {
   %\once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
   %\once \override Score.RehearsalMark.padding = #1
   \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
-  \once \override Score.RehearsalMark.self-alignment-X = #-0.7
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
   \once \override Score.RehearsalMark.padding = #1.4
   \mark \default
   

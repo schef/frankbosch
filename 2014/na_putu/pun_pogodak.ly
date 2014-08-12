@@ -14,8 +14,15 @@
 note = \relative c' {
   \key e \major
   \time 2/2
+  \once \override Score.MetronomeMark #'outside-staff-priority = #1 
+  \once \override Score.MetronomeMark.Y-offset = #5.65
+  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
   \tempo 2=89
   \partial 4
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
+  \once \override Score.RehearsalMark.Y-offset = #2.9
   \mark \default
   e4 |
   e4 e e cis8 e ~ |
@@ -44,6 +51,7 @@ note = \relative c' {
   e2 r4 gis4 |
   gis4 fis fis e8 fis ~ |
   fis2 r2 |
+  \once \override Score.RehearsalMark.Y-offset = #0.4
   \mark \default
   
   \repeat volta 2 {
@@ -73,10 +81,10 @@ tekst = \lyricmode {
   Pun po -- go -- dak si ti, __ pun po -- go -- dak sam ja __
   Bo -- žji pu -- ni po -- go -- dak smo mi. __
   Nas je stvo -- ri -- o __ ta -- ko ču -- de -- sno, __
-  Iz Bi -- bli -- je to zna -- mo i ve -- se -- li -- mo se svi
+  Iz Bi -- bli -- je to zna -- mo i __ ve -- se -- li -- mo se svi __
 
   \set stanza = "1."
-  Za -- to __ pet mi daj __ i no -- gom lu -- pi -- mo __ ""
+  Za -- to pet mi daj __ i no -- gom lu -- pi -- mo __ ""
   _ Pet mi daj __ i Bo -- ga hva -- li -- mo: __
 
   Bo -- že hva -- la ti, __ što sam stvo -- ren ta -- ko ču -- de -- sno 
@@ -87,14 +95,14 @@ tekst = \lyricmode {
 tekstDva = \lyricmode {
   \repeat unfold 45 {\skip 8}
   \set stanza = "2."
-  Za -- to __ pet mi daj __ i gla -- vom tre -- si -- mo __ "" 
+  Za -- to pet mi daj __ i gla -- vom tre -- si -- mo __ "" 
   _ Pet mi daj __ i Bo -- ga hva -- li -- mo: __
 }
 
 tekstTri = \lyricmode {
   \repeat unfold 45 {\skip 8}
   \set stanza = "3."
-  Ru -- ke __ di -- gni -- mo __ i __ _ po -- sko -- či -- mo. __
+  Ru -- ke di -- gni -- mo __ i __ _ po -- sko -- či -- mo. __
   Ru -- ke __ di -- gni -- mo __ i Bo -- ga hva -- li -- mo: __
 }
 

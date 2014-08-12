@@ -6,6 +6,7 @@
   title = "KAO JONATAN"
   titlex = "Na putu"
   broj = "9."
+  style = "Dražen Radman"
 }
 
 \include "s02_frbo.ily"
@@ -106,8 +107,8 @@ ref = \lyricmode {
 kiticaB = \lyricmode {
   \set stanza = #"2. "
   Ne -- tko bo -- gat že -- li po -- stat
-  i -- mat brod, ba -- zen  i vi -- lu    aha! __ _  wow!  oh yeah!
-  mi -- sli ta -- _ da bit' će sre -- tan
+  i -- mat brod, ba -- zen  i vi -- lu __    aha! __ _  wow!  oh yeah!
+  mi -- sli ta -- _ da bit' će sre -- tan __
   al' u to -- me ni -- je sre -- ća __   ne ne, __ ne ne, __ _ ne ne. __
 }
 
