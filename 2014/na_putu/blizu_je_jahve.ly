@@ -29,6 +29,7 @@ note = \relative c'' {
   h8 a g fis e d |
   c16 e d c h a h4. |
   \once \override Score.RehearsalMark.Y-offset = #0.5
+  \once \override Score.RehearsalMark.X-offset = #6
   \mark \default
   
   d'8 cis h cis4 a8 |

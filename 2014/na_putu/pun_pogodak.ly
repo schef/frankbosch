@@ -39,7 +39,7 @@ note = \relative c' {
   fis2 r4 fis4 |
   gis4 gis gis gis |
   fis4 fis8 gis ~ gis4 fis4 |
-  e4 e8 fis ~ fis4 gis8 e ~ |
+  e4 e8 fis ~ fis4 gis8 e ~ | \break
   e2 \breathemoj
   
   gis4  h4 |
