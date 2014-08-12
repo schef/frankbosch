@@ -26,25 +26,26 @@ note = \relative c' {
   \mark \default
   %\repeat volta 2 {
   %\partial2
-  r4 cis8 cis16 dis ~ dis4 dis8 e16 dis ~ |
+  r8 cis8 cis8 cis16 dis ~ dis8 dis dis8 e16 dis ~ |
   dis16 e8. ~ e4 r2 |
-  r4 cis8 cis16 dis ~ dis4 dis8 e16 dis ~ |
-  dis16 e8. ~ e4 r2 |
-  r4 h'8 cis16 gis ~ gis4 gis8 fis16 fis ~ |
+  r8. cis16  cis8 cis16 dis ~ dis8 dis dis8 e16 fis ~ |
+  fis16 e8. ~ e4 r2 |
+  r4 h'16 cis8 gis16 ~ gis4 gis16 fis8 fis16 ~ |
   fis16 e8. r4 r2 |
-  r8 h'8 h cis16 gis ~ gis fis8. fis8 e |
+  r8. h'16 h8 cis16 gis ~ gis fis8. fis8 e |
   gis8 fis ~ fis4 r2 |
   
   \once \override Score.RehearsalMark.X-offset = #-1.2
   \once \override Score.RehearsalMark.Y-offset = #0.3
   \mark \default
+  \bar "||"
   r8 gis8 gis fis16 fis ~ fis e8. ~ e4 |
-  a8 gis fis e16 e ~ e4 r4 |
-  r8 gis16 gis gis8 fis16 fis ~ fis e8 e16 ~ e4 |
-  e8. e16 ~ e16 dis8 cis16 ~ cis h8 h16 ~ h4 |
-  r8 gis'16 gis gis8 fis16 fis ~ fis e8 e16 ~ e4 |
+  a8( gis) fis e16 e ~ e4 r4 |
+  r8 gis gis8 fis16 fis ~ fis e8. ~ e4 |
+  e4 e8 dis cis( h) h4
+  r8 gis' gis8 fis16 fis( ~ fis e8. ~ e4) |
   h'4 a gis fis |
-  r8 e8 e fis gis a gis fis ~ |
+  r8 e8 e fis gis( a) gis fis ~ |
   fis4 e8 e4. r4 |
   \bar "|."
 }
@@ -65,16 +66,26 @@ akordi = \chordmode {
 kiticaA = \lyricmode {
   \set stanza = #"1. "
   %\skip4 \skip4
+Ein neu -- er Tag ein neu -- er Mor -- gen
+Ich weiß noch nicht, was mich er -- war -- tet
+Doch ich weiß dass auch heu -- te
+Die Gü -- te Go -- ttes mich be -- glei -- tet
 
 }
 
 ref = \lyricmode {
-
+Die Gü -- te Go -- ttes hört nie -- mals auf
+Und sein Er -- bar -- men hat noch kein En -- de
+Denn es ist neu je -- den Mor -- gen
+Herr dei -- ne Gü -- te ist so groß
 }
 
 kiticaB = \lyricmode {
   \set stanza = #"2. "
-
+Ein neu -- er Tag ein neu -- er Mor -- gen
+Ich weiß noch nicht, was mich er -- war -- tet
+Doch schon jetzt preis ich Je -- sus
+Weil sein Er -- barmen mich be -- glei -- tet.
 }
 
 kiticaC = \lyricmode {
