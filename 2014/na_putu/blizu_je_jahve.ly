@@ -21,7 +21,8 @@ note = \relative c'' {
   c 8 d c h4. |
   h8 a g fis e d |
   c16 e d c h a h4. |
-  \breathemoj
+  \once \override Score.RehearsalMark.Y-offset = #0.5
+  \mark \default
   
   d'8 cis h cis4 a8 |
   h8( a) g fis4. |

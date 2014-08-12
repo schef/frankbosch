@@ -15,6 +15,9 @@
 
 note = \relative c'' {
   \key f \major
+  
+  \once \override Score.RehearsalMark.Y-offset = #4
+  \mark \default
   b8. b16 ~ b8 b16 c ~ c8 b a g |
   a8. a16 ~ a4 r2 |
   g8. a16 ~ a8 g8 b4 a8 a8 ~ |
@@ -23,7 +26,8 @@ note = \relative c'' {
   a8. a16 ~ a4 r2 |
   g8 g16 g ~ g g8 a16 ~ a8 g4 f8 |
   e8. d16 ~ d4 r4 r8 f8 |
-  \breathemoj
+  \once \override Score.RehearsalMark.Y-offset = #0.3
+  \mark \default
   
   \repeat volta 2 {
     e8. f16 ~ f8 g g8. f16 ~ f8 a |
@@ -38,7 +42,10 @@ note = \relative c'' {
       a8. f16 ~ f8 e d4 r4 |
     }
   }
-  \breathemoj
+  \once \override Score.RehearsalMark #'outside-staff-priority = #1 
+  \once \override Score.RehearsalMark.Y-offset = #0.2
+  \once \override Score.RehearsalMark.X-offset = #-1.5
+  \mark \default
   
   g8 g g g g g f f ~ |
   f8 e ~ e4 r2 |
@@ -52,22 +59,22 @@ note = \relative c'' {
 }
 
 tekst = \lyricmode {
-%\set stanza = "1."
-Bog će o -- bri -- sat´ sva -- ku su -- zu __
-"s o" -- či -- ju lju -- blje -- nih. __
-Smr -- ti __ vi -- še ne -- će bi -- ti; __
-ne -- će vi -- še bi -- ti ni tu -- ge, __
-ni jau -- ka, ni bo -- li, __ naj naj naj naj naj
-jer sta -- ri __ svijet pro -- đe __ naj naj naj naj naj ni
-naj naj naj naj
-I -- sus ta -- da svi -- ma će re -- ći: __
-E -- vo sve sad či -- nim no -- vo __
-Ja sam Al -- fa i O -- me -- ga __
-Ja sam po -- če -- tak __ i svr -- še -- tak. __
+  %\set stanza = "1."
+  Bog će o -- bri -- sat´ sva -- ku su -- zu __
+  "s o" -- či -- ju lju -- blje -- nih. __
+  Smr -- ti __ vi -- še ne -- će bi -- ti; __
+  ne -- će vi -- še bi -- ti ni tu -- ge, __
+  ni jau -- ka, ni bo -- li, __ naj naj naj naj naj
+  jer sta -- ri __ svijet pro -- đe __ naj naj naj naj naj ni
+  naj naj naj naj
+  I -- sus ta -- da svi -- ma će re -- ći: __
+  E -- vo sve sad či -- nim no -- vo __
+  Ja sam Al -- fa i O -- me -- ga __
+  Ja sam po -- če -- tak __ i svr -- še -- tak. __
 }
 
 tekstDva = \lyricmode {
-%\repeat unfold 45 {\skip 8}
+  %\repeat unfold 45 {\skip 8}
 
 }
 
@@ -91,7 +98,7 @@ akordi = \chordmode {
     \new Staff { \note }
     \addlyrics { \tekst }
     \addlyrics { \tekstDva }
-%    \addlyrics { \tekstTri }
+    %    \addlyrics { \tekstTri }
   >>
   \layout {}
 }

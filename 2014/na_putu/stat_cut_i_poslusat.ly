@@ -13,15 +13,17 @@
 
 note = \relative c'' {
   \key e \major
+  
+  \once \override Score.RehearsalMark.X-offset = #9.6
   \mark \default
   \repeat volta 2 {
-  gis8 gis gis e fis4 dis8 e\( ~ |
-  e8 cis ~ cis4\) r4 r8 cis8 |
-  cis8 dis e fis e4 dis8 cis\( ~ |
-  cis8 h ~ h4\) r4 r8 h8 |
-  gis'8 gis gis e fis4 dis8 e ~ |
-  e8 cis ~ cis4 r2 |
-  cis8 dis e\( fis\) e4 dis8 fis ~ |
+    gis8 gis gis e fis4 dis8 e\( ~ |
+    e8 cis ~ cis4\) r4 r8 cis8 |
+    cis8 dis e fis e4 dis8 cis\( ~ |
+    cis8 h ~ h4\) r4 r8 h8 |
+    gis'8 gis gis e fis4 dis8 e ~ |
+    e8 cis ~ cis4 r2 |
+    cis8 dis e\( fis\) e4 dis8 fis ~ |
   }
   \alternative{
     {
@@ -44,10 +46,10 @@ note = \relative c'' {
   
   \breathemoj
   \repeat volta 2 {
-  e4 e e e |
-  fis4 e8 fis ~ fis fis ~ fis4 |
-  gis4 gis gis gis |
-  a4 gis8 a ~ a gis a h |
+    e4 e e e |
+    fis4 e8 fis ~ fis fis ~ fis4 |
+    gis4 gis gis gis |
+    a4 gis8 a ~ a gis a h |
   }
   \alternative{
     {
@@ -67,48 +69,48 @@ note = \relative c'' {
 }
 
 tekst = \lyricmode {
-\set stanza = "1."
-po -- ne -- kad me gnja -- vi, lju -- ti __
-"" što mi do -- ma ka -- žu mo -- ji __
-"" glas nji -- hov mi tvr -- do zvu -- či __
-ne da -- ju mi sve što vo -- lim __ ""
+  \set stanza = "1."
+  po -- ne -- kad me gnja -- vi, lju -- ti __
+  "" što mi do -- ma ka -- žu mo -- ji __
+  "" glas nji -- hov mi tvr -- do zvu -- či __
+  ne da -- ju mi sve što vo -- lim __ ""
 
-\skip 8
-tre -- bam stat' oooh __ čut'  oooh __ i po -- slu -- šat'
-ooh __ stat ćut i po -- slu -- šat
+  \skip 8
+  tre -- bam stat' oooh __ čut'  oooh __ i po -- slu -- šat'
+  ooh __ stat ćut i po -- slu -- šat
 
-Bo -- že, te -- be, riječ ži -- vo -- ta __
-"s to" -- bom že -- đat' ne -- će du -- ša
-jer si i -- zvor ži -- va vo -- da __
+  Bo -- že, te -- be, riječ ži -- vo -- ta __
+  "s to" -- bom že -- đat' ne -- će du -- ša
+  jer si i -- zvor ži -- va vo -- da __
 }
 
 tekstDva = \lyricmode {
-%\set stanza = "2."
-pro -- fe -- so -- ri sli -- čno zbo -- re __
-"" od -- la -- zi im riječ u vje -- tar __
-"" on -- da mo -- je mi -- sli ho -- de __
-u svijet ču -- dnih ma -- šta, že -- "" "-" lja __ ""
+  %\set stanza = "2."
+  pro -- fe -- so -- ri sli -- čno zbo -- re __
+  "" od -- la -- zi im riječ u vje -- tar __
+  "" on -- da mo -- je mi -- sli ho -- de __
+  u svijet ču -- dnih ma -- šta, že -- "" "-" lja __ ""
 
-\repeat unfold 16 {\skip 8}
+  \repeat unfold 16 {\skip 8}
 
-"s to" -- bom že -- đat' ne -- će du -- ša __
-te -- be pr -- vog ja ću slu -- šat'
-tre -- bam _ _ _ _ _ _ stat čut i po -- slu -- šat __
+  "s to" -- bom že -- đat' ne -- će du -- ša __
+  te -- be pr -- vog ja ću slu -- šat'
+  tre -- bam _ _ _ _ _ _ stat čut i po -- slu -- šat __
 }
 
 tekstTri = \lyricmode {
-\set stanza = "2."
-je -- dni ka -- žu: i -- di lije -- vo __
-"" dru -- gi ka -- žu: po -- đi de -- sno
-"" ši -- ro -- kom za -- plo -- vi rije -- kom
-ne -- moj ni -- kad u -- skom ce -- stom
+  \set stanza = "2."
+  je -- dni ka -- žu: i -- di lije -- vo __
+  "" dru -- gi ka -- žu: po -- đi de -- sno
+  "" ši -- ro -- kom za -- plo -- vi rije -- kom
+  ne -- moj ni -- kad u -- skom ce -- stom
 }
 
 tekstCetiri = \lyricmode {
-ko -- ji on -- da slije -- dit' put __ _
-i či -- ji on -- da slu -- šat' glas __ _
-da ja ne skre -- nem bi -- lo kud __ _
-pra -- vi smjer sad tre -- bam znat
+  ko -- ji on -- da slije -- dit' put __ _
+  i či -- ji on -- da slu -- šat' glas __ _
+  da ja ne skre -- nem bi -- lo kud __ _
+  pra -- vi smjer sad tre -- bam znat
 }
 
 akordi = \chordmode {
@@ -127,7 +129,7 @@ akordi = \chordmode {
     \addlyrics { \tekst }
     \addlyrics { \tekstDva }
     \addlyrics { \tekstTri }
-        \addlyrics { \tekstCetiri }
+    \addlyrics { \tekstCetiri }
   >>
   \layout {}
 }

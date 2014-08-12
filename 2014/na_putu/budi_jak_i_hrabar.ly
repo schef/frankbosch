@@ -1,7 +1,5 @@
 \version "2.18.0"
-
 \include "deutsch.ly"
-
 
 \header {
   title = "BUDI JAK I HRABAR"
@@ -15,7 +13,9 @@
 note = {
     \key d \minor
     \partial 8 d'8 |
-    \mark \default a' a' f' g' ~ g'4 e'8 f' ~ |
+    \once \override Score.RehearsalMark.X-offset = #-6.5
+    \mark \default
+    a' a' f' g' ~ g'4 e'8 f' ~ |
     f'2 r2 |
     c''2 c''4 b'8 b' ~ |
     b' a'4. r2 |
@@ -31,7 +31,10 @@ note = {
     g' f' f'4 r2 |
     g'8 g' g' g' a' b'4 b'8 ~ |
     b' a' a'4 r g'8 a' |
-    \mark \default b'4 b' c''8 b' a' g' |
+    
+    \once \override Score.RehearsalMark.Y-offset = #4
+    \mark \default
+    b'4 b' c''8 b' a' g' |
     a'4 a'8 f' b' a'4 f'8 |
     g' g' f' f' ~ f' e' d' e' |
     f'4 g' a' g'8 a' |
@@ -44,7 +47,7 @@ note = {
 }
 
 akordi = \chordmode {
-\semiGermanChords
+%\semiGermanChords
 s8 |
 d2:m a:7 | d1:m |
 c1 | f1 |
@@ -58,7 +61,7 @@ f2 d:m |
 g2 a2:7 | d4:m a:7 d2:m |
 g2:m c |
 f d:m
-g2 a2:7 | d4:m a:7 d4.:m |
+g2 a2:7 | d4:m a:7 d4.:m 
 }
 
 rijeci = \lyricmode {

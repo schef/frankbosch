@@ -13,10 +13,10 @@
 
 note = \relative c' {
   \key e \major
-  \partial 4
-  \mark \default
   \time 2/2
   \tempo 2=89
+  \partial 4
+  \mark \default
   e4 |
   e4 e e cis8 e ~ |
   e2 r4 e4 |
@@ -44,7 +44,7 @@ note = \relative c' {
   e2 r4 gis4 |
   gis4 fis fis e8 fis ~ |
   fis2 r2 |
-  \breathemoj
+  \mark \default
   
   \repeat volta 2 {
     gis4 h h h8 cis ~ |
@@ -70,45 +70,45 @@ note = \relative c' {
 }
 
 tekst = \lyricmode {
-Pun po -- go -- dak si ti, __ pun po -- go -- dak sam ja __
-Bo -- žji pu -- ni po -- go -- dak smo mi. __
-Nas je stvo -- ri -- o __ ta -- ko ču -- de -- sno, __
-Iz Bi -- bli -- je to zna -- mo i ve -- se -- li -- mo se svi
+  Pun po -- go -- dak si ti, __ pun po -- go -- dak sam ja __
+  Bo -- žji pu -- ni po -- go -- dak smo mi. __
+  Nas je stvo -- ri -- o __ ta -- ko ču -- de -- sno, __
+  Iz Bi -- bli -- je to zna -- mo i ve -- se -- li -- mo se svi
 
-\set stanza = "1."
-Za -- to __ pet mi daj __ i no -- gom lu -- pi -- mo __ ""
-_ Pet mi daj __ i Bo -- ga hva -- li -- mo: __
+  \set stanza = "1."
+  Za -- to __ pet mi daj __ i no -- gom lu -- pi -- mo __ ""
+  _ Pet mi daj __ i Bo -- ga hva -- li -- mo: __
 
-Bo -- že hva -- la ti, __ što sam stvo -- ren ta -- ko ču -- de -- sno 
-što su tvo -- ja dje -- la pre -- di -- vna. __
-što su tvo -- ja dje -- la pre -- di -- vna. __
+  Bo -- že hva -- la ti, __ što sam stvo -- ren ta -- ko ču -- de -- sno 
+  što su tvo -- ja dje -- la pre -- di -- vna. __
+  što su tvo -- ja dje -- la pre -- di -- vna. __
 }
 
 tekstDva = \lyricmode {
-\repeat unfold 45 {\skip 8}
-\set stanza = "2."
-Za -- to __ pet mi daj __ i gla -- vom tre -- si -- mo __ "" 
-_ Pet mi daj __ i Bo -- ga hva -- li -- mo: __
+  \repeat unfold 45 {\skip 8}
+  \set stanza = "2."
+  Za -- to __ pet mi daj __ i gla -- vom tre -- si -- mo __ "" 
+  _ Pet mi daj __ i Bo -- ga hva -- li -- mo: __
 }
 
 tekstTri = \lyricmode {
-\repeat unfold 45 {\skip 8}
-\set stanza = "3."
-Ru -- ke __ di -- gni -- mo __ i __ _ po -- sko -- či -- mo. __
-Ru -- ke __ di -- gni -- mo __ i Bo -- ga hva -- li -- mo: __
+  \repeat unfold 45 {\skip 8}
+  \set stanza = "3."
+  Ru -- ke __ di -- gni -- mo __ i __ _ po -- sko -- či -- mo. __
+  Ru -- ke __ di -- gni -- mo __ i Bo -- ga hva -- li -- mo: __
 }
 
 akordi = \chordmode {
-\skip 4
-e1 | e | fis:m | fis:m |
-gis1:m | fis:m | e | e | e | e |
-fis1:m | fis:m | gis:m | fis:m |
-e1 | e | gis:m | cis:m | a | h | gis:m |
-cis1:m | a | h |
+  \skip 4
+  e1 | e | fis:m | fis:m |
+  gis1:m | fis:m | e | e | e | e |
+  fis1:m | fis:m | gis:m | fis:m |
+  e1 | e | gis:m | cis:m | a | h | gis:m |
+  cis1:m | a | h |
 
-e1 | a | h | e |
-cis1:m | a | h | h |
-cis1:m | a2 h | e1 | e |
+  e1 | a | h | e |
+  cis1:m | a | h | h |
+  cis1:m | a2 h | e1 | e |
 }
 
 \score {
