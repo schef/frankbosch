@@ -15,7 +15,12 @@
 
 note = \relative c'' {
   \key f \major
-  
+  \once \override Score.MetronomeMark.Y-offset = #3.2
+  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+  \tempo 4 = 115
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
   \once \override Score.RehearsalMark.Y-offset = #4
   \mark \default
   b8. b16 ~ b8 b16 c ~ c8 b a g |

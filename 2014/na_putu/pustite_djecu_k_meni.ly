@@ -13,14 +13,17 @@
 
 note = \relative c'' {
   \once \override Score.MetronomeMark.Y-offset = #3
+    \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
    % \once \override Score.MetronomeMark.X-offset = #6
   \tempo 4 = 140
   \key e \minor
   %    \set Score.markFormatter = #format-mark-box-letters
 
   %dio A
-  \once \override Score.RehearsalMark.X-offset = #1.2
-  \once \override Score.RehearsalMark.padding = #2.2
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
+  \once \override Score.RehearsalMark.Y-offset = #3.8
   \mark \default
   
   %    \repeat volta 2 {

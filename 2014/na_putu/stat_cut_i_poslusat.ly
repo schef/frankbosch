@@ -13,7 +13,10 @@
 
 note = \relative c'' {
   \key e \major
-  
+  \once \override Score.MetronomeMark.Y-offset = #3.2
+  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+  \tempo 4 = 122  
   \once \override Score.RehearsalMark.X-offset = #9.6
   \mark \default
   \repeat volta 2 {
@@ -77,7 +80,7 @@ tekst = \lyricmode {
 
   \skip 8
   tre -- bam stat' oooh __ čut'  oooh __ i po -- slu -- šat'
-  ooh __ stat ćut i po -- slu -- šat
+  ooh __ stat ćut i po -- slu -- šat __
 
   Bo -- že, te -- be, riječ ži -- vo -- ta __
   "s to" -- bom že -- đat' ne -- će du -- ša
@@ -110,7 +113,7 @@ tekstCetiri = \lyricmode {
   ko -- ji on -- da slije -- dit' put __ _
   i či -- ji on -- da slu -- šat' glas __ _
   da ja ne skre -- nem bi -- lo kud __ _
-  pra -- vi smjer sad tre -- bam znat
+  pra -- vi smjer sad tre -- bam zna -- "" "-" ti __
 }
 
 akordi = \chordmode {

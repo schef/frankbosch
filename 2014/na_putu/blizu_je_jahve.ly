@@ -14,6 +14,13 @@
 note = \relative c'' {
   \key d \major
   \time 6/8
+  \once \override Score.MetronomeMark.Y-offset = #3.2
+  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.
+  \tempo 8. = 58
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
+  \once \override Score.RehearsalMark.Y-offset = #3
   \mark \default
   h8 c d e fis g |
   a8 h a h4. |
@@ -58,8 +65,8 @@ _ _ i -- zba -- vlja ih iz svih tje -- sko -- ba. __ _ Ja -- hve je bli -- zu.
 
 tekstDva = \lyricmode {
 \repeat unfold 63 {\skip 8}
-Mno -- ge ne -- vo -- lje i -- ma pra -- ve -- dnik a -- li Bog ga od svih i -- zba -- vlja
-Mno -- ge ne -- vo -- lje i -- ma pra -- ve -- dnik a -- li Ja -- hve je bli -- zu
+Mno -- ge ne -- vo -- lje i -- ma pra -- ve -- dnik a -- li Bog ga od svih i -- zba -- vlja.
+Mno -- ge ne -- vo -- lje i -- ma pra -- ve -- dnik a -- li Ja -- hve je bli -- zu.
 }
 
 %tekstTri = \lyricmode {

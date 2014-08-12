@@ -13,6 +13,13 @@
 
 noteprvi = \relative c' {
   \key f \major
+  \once \override Score.MetronomeMark.Y-offset = #3.2
+  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+  \tempo 4 = 120  
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
+  \once \override Score.RehearsalMark.Y-offset = #3.2
   \mark \default
   \voiceOne
   %\override Voice.Rest #'staff-position = #0
@@ -38,7 +45,7 @@ noteprvi = \relative c' {
   e4 d2. |
   \bar "||"
 
-  \breathemoj
+  \mark \default
   f8 f f f ~ f f f f ~ |
   f8 e ~ e2 r8 e8 |
   g8 g g4 r2 |

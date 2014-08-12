@@ -11,14 +11,18 @@
 \include "s02_frbo.ily"
 
 note = \relative c' {
+  \once \override Score.MetronomeMark #'outside-staff-priority = #1 
   \once \override Score.MetronomeMark.Y-offset = #3
-  %  \once \override Score.MetronomeMark.X-offset = #5
+  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
   \tempo 4 = 120
   \key a \minor
   %    \set Score.markFormatter = #format-mark-box-letters
   
   %dio A
-  \once \override Score.RehearsalMark.X-offset = #5
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
+  \once \override Score.RehearsalMark.Y-offset = #3.4
   \mark \default
   %    \repeat volta 2 {
   %    \partial8
@@ -64,7 +68,7 @@ kiticaA = \lyricmode {
 }
 
 ref = \lyricmode {
-  jer do ne -- ba, do ne -- _ _ ba je __ do -- bro -- ta,
+  jer do ne -- ba, do ne -- _ _ ba je do -- bro -- ta,
   do -- bro -- ta tvo -- ja, do o -- bla -- ka tvo -- ja __ vjer -- nost je. __
   Jer do
 }

@@ -11,11 +11,17 @@
 \include "s02_frbo.ily"
 
 note = \relative c'' {
+    \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+   \once \override Score.MetronomeMark.Y-offset = #3
     \tempo 4 = 208
     \key f \major
 %    \set Score.markFormatter = #format-mark-box-letters
     
     %dio A
+    \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
+  \once \override Score.RehearsalMark.Y-offset = #3.8
     \mark \default
 %    \repeat volta 2 {
 %    \partial8
@@ -58,6 +64,7 @@ r2 r4 d4 |
 \bar "||"
 %\break
 
+  \once \override Score.RehearsalMark.Y-offset = #0.4
 \mark \default
 b'1 |
 b2 a |

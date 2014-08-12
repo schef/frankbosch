@@ -13,6 +13,13 @@
 
 note = \relative c' {
   \key c \major
+  \once \override Score.MetronomeMark.Y-offset = #3
+  \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+  \tempo 4 = 120  
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.6
+  \once \override Score.RehearsalMark.Y-offset = #2.95
   \mark \default
   e4 e e e | f f f g8 g( |
   e2) r2 |
@@ -51,7 +58,7 @@ da i -- zgu -- bljen sam __ a -- li vo -- ljen __
 da spas tre -- bam __ od go -- spo -- di -- na __
 
 sad u -- mi -- vam o -- braz sr -- ca svog __
-na i -- zvo -- ru bi -- strom Bo -- že tvom
+na i -- zvo -- ru bi -- strom Bo -- že tvom __
 da o -- draz rije -- či bu -- dem vje -- ran
 je -- dna kap gdje je ne -- tko že -- dan
 
@@ -67,10 +74,10 @@ tekstDva = \lyricmode {
 Kad sam to -- ga da -- na ču -- o riječ __
 ma -- kar dije -- te ja sam zna -- o tad __
 da sam Kri -- stu drag __ da sam vo -- ljen __
-i što i -- mam da je nje -- gov dar __
+i što i -- mam __ da je nje -- gov dar __
 
 sad u -- mi -- vam o -- braz sr -- ca svog __
-na i -- zvo -- ru bi -- strom Bo -- že tvom
+na i -- zvo -- ru bi -- strom Bo -- že tvom __
 jer dra -- go -- cje -- na ti si vo -- da
 ži -- va rije -- ka mir sr -- ca mo -- ga __
 }
