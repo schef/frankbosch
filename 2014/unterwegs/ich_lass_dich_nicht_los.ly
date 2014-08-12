@@ -13,7 +13,13 @@
 \include "s02_frbo.ily"
 
 note = \relative c'' {
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+  \once \override Score.MetronomeMark.padding = #3
+  \tempo 4 = 94
   \key c \major
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.7
+  \once \override Score.RehearsalMark.padding = #1.4
   \mark \default
   g2( a) |
   g8 f e d ~ d4. d8 |
@@ -25,6 +31,7 @@ note = \relative c'' {
   
   d8 |
   e4 c8 a ~ a8 d4 c8( |
+  \break
   c2) r4 r8 
   \breathemoj  
   c |

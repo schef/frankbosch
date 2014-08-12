@@ -11,11 +11,16 @@
 \include "s02_frbo.ily"
 
 note = \relative c' {
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+  \once \override Score.MetronomeMark.padding = #3
     \tempo 4 = 120
     \key a \minor
 %    \set Score.markFormatter = #format-mark-box-letters
     
     %dio A
+    \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+    \once \override Score.RehearsalMark.self-alignment-X = #-0.7
+    \once \override Score.RehearsalMark.padding = #1.4
     \mark \default
 %    \repeat volta 2 {
 %    \partial8

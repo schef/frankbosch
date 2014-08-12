@@ -15,10 +15,16 @@
 \include "deutsch.ly"
 
 note = \relative c' {
+  \once \override Score.MetronomeMark.self-alignment-X = #-1.05
+  \once \override Score.MetronomeMark.padding = #4
+  \tempo 4 = 120
   \key e \major
   \partial 4
   \time 3/4
   %kitica
+  \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.7
+  \once \override Score.RehearsalMark.padding = #1
   \mark \default
   e4 |
   e2. (|
@@ -99,7 +105,7 @@ note = \relative c' {
   g4. g8 a b |
   c2.(  |
   b2 a4) |
-  g2( a4) |
+  g2( a4) | \break
 
   a2
   \key a \major

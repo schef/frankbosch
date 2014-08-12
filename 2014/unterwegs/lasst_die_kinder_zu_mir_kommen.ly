@@ -12,22 +12,13 @@
 \include "s02_frbo.ily"
 
 note = \relative c'' {
-  %\once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)
   \once \override Score.MetronomeMark.self-alignment-X = #-1.05
-  %\once \override Score.MetronomeMark.self-alignment-Y = #-5
   \once \override Score.MetronomeMark.padding = #3
   \tempo 4 = 140
   \key e \minor
   %    \set Score.markFormatter = #format-mark-box-letters
 
   %dio A
-  %\once \override Score.RehearsalMark.X-offset = #1.2
-  %\once \override Score.RehearsalMark.padding = #2.2
-  %\override Score.RehearsalMark.break-align-symbols = #'(time-signature)
-  %\once \override Score.TimeSignature.break-align-anchor-alignment = #LEFT
-  %\once \override Score.Clef.break-align-anchor-alignment = #CENTER
-  %\once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
-  %\once \override Score.RehearsalMark.padding = #1
   \once \override Score.RehearsalMark.break-align-symbols = #'(time-signature)
   \once \override Score.RehearsalMark.self-alignment-X = #-0.6
   \once \override Score.RehearsalMark.padding = #1.4
