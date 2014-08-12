@@ -35,15 +35,16 @@ note = \relative c'' {
   
   
   %    \repeat volta 2 {
-  %    \partial8
+      \partial8 \tiny \parenthesize e,8 \normalsize
+  
   g4 fis e r4 |
-  a4 g fis r4 |
-  h4 a g\( a\) |
-  h2. r4 |
+  a4 g fis r8 fis |
+  h4 a g a  |
+  h2 h4 r8 fis8 |
   g4 fis e r4 |
-  a4 g fis r4 |
-  d4\( d4\) fis d |
-  e2. r4 |
+  a4 g fis r8 d8 |
+  d2 fis4 d |
+  e2 e4 r8 e8 |
   \bar ":..:"
 
   \once \override Score.RehearsalMark.padding = #0
@@ -53,8 +54,8 @@ note = \relative c'' {
   fis4 fis g a |
   a4 h2. |
   c4 c h a |
-  a4 g g4. g8 |
-  g4 fis e d |
+  a4 g2. |
+  fis4 fis e d |
   e2. r4 |
   \bar ":..:"
  
@@ -73,6 +74,7 @@ note = \relative c'' {
 
 akordi = \chordmode {
   \set chordChanges = ##t
+  \skip8
   e1:m | a:m | d | g | e:m |
   a1:m | d | e:m | a:m | e:m |
   d1 | g | a:m | e:m | d | e:m |
@@ -83,13 +85,14 @@ akordi = \chordmode {
 kiticaA = \lyricmode {
   %\set stanza = #"1. "
   %\skip4 \skip4
-  Pus -- ti -- te, pus -- ti -- te dje -- cu "k me" -- _ ni,
-  ne -- moj -- te, ne -- moj -- te im __ _ bra -- ni -- ti.
+
+_ Lasst doch die, lasst doch die, __ _ Kin -- der zu mir kom -- men.
+und hin -- dert sie, nicht da -- ran, __ _ hin -- dert sie nicht. __ _ Denn
 }
 
 ref = \lyricmode {
-  Re -- ka -- o je I -- sus ko -- ji dje -- cu vo -- li.
-  On ih je za -- gr -- li -- o i bla -- go -- sliv -- lja -- o.
+Das sag -- te uns Je -- sus, der die Kind -- er lieb hat, 
+der sie in den Arm nahm und sie se -- gne --  te.
 }
 
 kiticaB = \lyricmode {
@@ -101,8 +104,8 @@ kiticaB = \lyricmode {
 kiticaC = \lyricmode {
   %\set stanza = #"3. "
   %\skip4 \skip4
-  Ta -- kvi -- ma pri -- pa -- da Bo -- žje kra -- ljev -- stvo!
-  Ta -- kvi -- ma pri -- pa -- da Bo -- žje kra -- ljev -- stvo!
+  \tiny "(Dann)" \normalsize sol __ _ -- chen, sol __ _ -- chen ge -- hört das Hi -- mmel -- reich __ _ _ 
+Sol __ _ -- chen, sol __ _ -- chen ge -- hört das Reich Go -- ttes. __ _
 }
 
 \score {
