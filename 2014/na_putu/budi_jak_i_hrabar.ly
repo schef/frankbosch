@@ -65,10 +65,10 @@ akordi = \chordmode {
 
   g2:m c |
   f2 d:m |
-  g2 a2:7 | d4:m a:7 d2:m |
+  g2:m a2:7 | d4:m a:7 d2:m |
   g2:m c |
   f d:m
-  g2 a2:7 | d4:m a:7 d4.:m 
+  g2:m a2:7 | d4:m a:7 d4.:m 
 }
 
 rijeci = \lyricmode {

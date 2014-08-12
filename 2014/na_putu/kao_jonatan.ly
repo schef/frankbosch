@@ -73,11 +73,11 @@ akordi = \chordmode {
   f1 | f | f | f |
   c1 | b | f | f |
   f1 | f | f | f |
-  c1 | b | f | f |
+  c1 | b | f |
   f1 | f | b | f |
   f1 | b | f | c |
-  f1 | b | f |
-  b1 | f1 | f |
+  f1 | b | f | f |
+  b1 | f1 | f | f |
   b1 | f | f | c | f2 f4
 }
 
