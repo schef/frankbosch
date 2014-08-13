@@ -66,26 +66,26 @@ akordi = \chordmode {
 kiticaA = \lyricmode {
   \set stanza = #"1. "
   %\skip4 \skip4
-Ein neu -- er Tag, ein neu -- er Mor -- gen
-Ich weiß noch nicht, was mich er -- war -- tet.
+Ein neu -- er Tag, __ ein neu -- er Mor -- gen __
+Ich weiß noch nicht, was mich er -- war -- tet. __
 Doch ich weiß dass auch heu -- te
-Die Gü -- te Go -- ttes mich be -- glei -- tet.
+Die Gü -- te Go -- ttes mich be -- glei -- tet. __
 
 }
 
 ref = \lyricmode {
-Die Gü -- te Go -- ttes hört nie -- mals auf
-Und sein er -- bar -- men hat noch kein En -- de
-denn es ist neu je -- den Mor -- gen.
-Herr dei -- ne Gü -- te ist so groß.
+Die Gü -- te Go -- ttes __ hört nie -- mals auf __
+Und sein er -- bar -- men __ hat noch kein En -- de
+denn es ist neu __ je -- den Mor -- gen.
+Herr dei -- ne Gü -- te ist __ so groß.
 }
 
 kiticaB = \lyricmode {
   \set stanza = #"2. "
-Ein neu -- er Tag, ein neu -- er Mor -- gen
-Ich weiß noch nicht, was mich er -- war -- tet.
+Ein neu -- er Tag, __ ein neu -- er Mor -- gen __
+Ich weiß noch nicht, was mich er -- war -- tet. __
 Doch schon jetzt preis ich Je -- sus
-weil sein er -- barmen mich be -- glei -- tet.
+weil sein er -- bar -- men mich be -- glei -- tet. __
 }
 
 kiticaC = \lyricmode {

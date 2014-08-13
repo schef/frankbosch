@@ -57,7 +57,7 @@ akordi = \chordmode {
   a1:m | g | e:7 | a:m |
   f1 | g | c | e:7 |
   \set chordChanges = ##f
-  e:7 |
+  c |
 }
 
 kiticaA = \lyricmode {

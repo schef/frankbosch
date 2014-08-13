@@ -68,17 +68,17 @@ note = \relative c' {
 
 tekst = \lyricmode {
 Gott, du bist mein Gott, den ich su -- che. 
-Es dür -- stet mei -- ne See  -- le nach dir, mein gan -- zer 
-Mensch ver -- langt nach dir aus trocke -- nem, 
+Es dür -- stet mei -- ne See  -- le nach dir, __ mein gan -- zer 
+Mensch ver -- langt nach dir __ aus trocke -- nem, 
 dü -- rrem Land, 
-wo kein Wa -- sser ist.
+wo kein Wa -- sser ist. __
 
-So scha -- ue ich aus nach dir in dei -- nem Hei -- lig -- tum, 
+So scha -- ue ich aus nach dir __ in dei -- nem Hei -- lig -- tum, 
 woll -- te ger -- ne se -- hen dei -- ne Macht und Herr -- lich -- keit.
 Denn dei -- ne Gü -- te ist be -- sser als Le -- ben; 
-mei -- ne Li -- ppen prei -- sen dich.
+mei -- ne Li -- ppen prei -- sen dich. __
 So will ich dich lo -- ben mein Le -- ben lang 
-und mei -- ne Hän -- de 
+und mei -- ne Hän -- de __ 
 in dei -- nem Na -- men auf -- he -- ben.
 
 Gott, du bist mein Gott, den ich su -- che. 
