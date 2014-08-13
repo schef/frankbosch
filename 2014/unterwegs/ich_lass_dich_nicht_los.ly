@@ -52,8 +52,8 @@ tekst = \lyricmode {
 Ich __ lass Dich nicht los, __ bis Du mich se -- gnest Herr __
 Ich __ lass Dich nicht los, __ bis Du mich se -- gnest Herr __ 
 Du Va -- ter in dem Him -- mel sprich
-Dein Wort des Se -- gens ü -- ber mich
-Auf dass ich froh den neu -- en Tag __
+Dein Wort des Se -- gens ü -- ber mich,
+auf dass ich froh den neu -- en Tag __
 be -- gi -- nnen, und be -- en -- den mag. __
 }
 

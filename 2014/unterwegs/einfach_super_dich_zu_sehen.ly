@@ -56,24 +56,24 @@ akordi = \chordmode {
 kiticaA = \lyricmode {
   \set stanza = #"1. "
   %\skip4 \skip4
-  Ein -- fach su -- per Dich zu se -- hen komm und mach doch ein -- fach mit
-  Ich schenk dir mein schön -- stes Lä -- cheln denn das ist doch echt der Hit!
+  Ein -- fach su -- per dich zu se -- hen, komm und mach doch ein -- fach mit.
+  Ich schenk dir mein schön -- stes Lä -- cheln, denn das ist doch echt der Hit!
 }
 
 ref = \lyricmode {
-  Gott ist auf die Welt ge -- ko -- mmen weil er es nicht la -- ssen kann
+  Gott ist auf die Welt ge -- ko -- mmen, weil er es nicht la -- ssen kann.
   Uns zu lie -- ben und be -- schen -- ken, Leu -- te lasst Ihn an euch ran.
 }
 
 kiticaB = \lyricmode {
   \set stanza = #"2. "
-  Mit dem Zei -- ge -- fin -- ger wink ich und be -- grü -- ße dich da -- mit
-  Mit der rech -- ten Hand wink ich Dir Mensch das ist doch echt der Hit!
+  Mit dem Zei -- ge -- fin -- ger wink ich und be -- grü -- ße dich da -- mit.
+  Mit der rech -- ten Hand wink ich dir, Mensch das ist doch echt der Hit!
 }
 
 kiticaC = \lyricmode {
   \set stanza = #"3. "
-  Nun dreh ich mich um mich sel -- ber und be -- grü -- ße dich da -- mit
+  Nun dreh ich mich um mich sel -- ber und be -- grü -- ße dich da -- mit.
   Je -- dem geb ich mei -- ne Hän -- de, Leu -- te das ist echt der Hit!
 }
 

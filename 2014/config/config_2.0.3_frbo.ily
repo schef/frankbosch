@@ -47,8 +47,9 @@ breathemoj = {
 		%\override Score.RehearsalMark.break-align-symbols = #'(breathing-sign)
 		%\mark \default
 		%\breathe
-		
+		  \noBreak
 		  \once \override Score.RehearsalMark.Y-offset = #0.1
+                  %\once \override Staff.BarLine #'extra-spacing-width = #'(-5 . 3)
                   \once \override Staff.BarLine #'extra-spacing-width = #'(-2 . 3)
                   \once \override Staff.BarLine #'color = #red
                   \once \override Staff.BarLine.bar-extent = #'(1.5 . 2.5)

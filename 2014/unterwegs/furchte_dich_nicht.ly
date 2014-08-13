@@ -70,13 +70,13 @@ tekst = \lyricmode {
 %\set stanza = "1."
 Manch -- mal fehlt der Mut, wirk -- lich vor -- wärts zu gehen.
 Vor dir ist dann nur ei -- ne Mau -- er zu sehen.
-Hil -- fe fin -- dest du bei dem E -- wi -- gen Gott.
+Hil -- fe fin -- dest du bei dem e -- wi -- gen Gott.
 Sei -- ne Wor -- te sind Trost in der Not:
 
-„Fürch -- te dich nicht, ich bin mit dir; 
+„Fürch -- te dich nicht, Ich bin mit dir; 
 wei -- che nicht, denn ich bin dein Gott. 
-Ich stär -- ke dich, ich hel -- fe dir auch, 
-ich hal -- te dich durch die rech -- te Hand 
+Ich stär -- ke dich, Ich hel -- fe dir auch, 
+Ich hal -- te dich durch die rech -- te Hand 
 mei -- ner Ge -- rech -- tig -- keit.“
 
 
@@ -89,9 +89,9 @@ mei -- ner Ge -- rech -- tig -- keit.“
 
 tekstDva = \lyricmode {
 %\repeat unfold 45 {\skip 8}
-Manch -- mal fragst Du Dich, was hat Gott mit mir vor?
-Zwei -- felnd fühlst Du Dich, wie auf We -- gen durchs Moor.
-Ängst -- lich rufst Du aus: Herr ich seh´ den Weg nicht.
+Manch -- mal fragst du dich, was hat Gott mit mir vor?
+Zwei -- felnd fühlst du dich, wie auf We -- gen durchs Moor.
+Ängst -- lich rufst du aus: Herr ich seh´ den Weg nicht.
 Doch ver -- giss nicht was Gott dir ver -- spricht:
 
 }

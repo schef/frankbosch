@@ -89,13 +89,13 @@ der sie in den Arm nahm und sie se -- gne --  te.
 kiticaB = \lyricmode {
   %\set stanza = #"2. "
   Laj laj laj, laj laj laj, laj laj laj laj laj.
-  Laj laj laj, laj laj laj, laj laj laj laj laj.
+  Laj laj laj, laj laj laj, laj laj laj laj.
 }
 
 kiticaC = \lyricmode {
   %\set stanza = #"3. "
   %\skip4 \skip4
-  \tiny "(Dann)" \normalsize sol __ _ -- chen, sol __ _ -- chen ge -- hört das Hi -- mmel -- reich __ _ _ 
+  \tiny "(Denn)" \normalsize sol __ _ -- chen, sol __ _ -- chen ge -- hört das Hi -- mmel -- reich __ _ _ 
 Sol __ _ -- chen, sol __ _ -- chen ge -- hört das Reich Go -- ttes. __ _
 }
 
