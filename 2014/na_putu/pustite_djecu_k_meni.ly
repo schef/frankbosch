@@ -87,7 +87,7 @@ ref = \lyricmode {
 kiticaB = \lyricmode {
   %\set stanza = #"2. "
   Laj laj laj, laj laj laj, laj laj laj laj laj.
-  Laj laj laj, laj laj laj, laj laj laj laj laj.
+  Laj laj laj, laj laj laj, laj laj laj laj.
 }
 
 kiticaC = \lyricmode {

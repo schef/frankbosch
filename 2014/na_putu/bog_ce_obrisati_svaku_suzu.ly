@@ -73,9 +73,9 @@ tekst = \lyricmode {
   jer sta -- ri __ svijet pro -- đe __ naj naj naj naj naj ni
   naj naj naj naj
   I -- sus ta -- da svi -- ma će re -- ći: __
-  E -- vo sve sad či -- nim no -- vo __
-  Ja sam Al -- fa i O -- me -- ga __
-  Ja sam po -- če -- tak __ i svr -- še -- tak. __
+  „E -- vo sve sad či -- nim no -- vo, __
+  Ja sam Al -- fa i O -- me -- ga. __
+  Ja sam po -- če -- tak __ i svr -- še -- tak.“ __
 }
 
 tekstDva = \lyricmode {

@@ -84,32 +84,32 @@ akordi = \chordmode {
 kiticaA = \lyricmode {
   \set stanza = #"1. "
   %\skip4 \skip4
-  Ne -- tko sla -- van že -- li po -- stat
-  zna -- ni glu -- mac i -- li pje -- vač   aha! __ _  wow!   oh yeah!
-  _ _ U -- či -- telj vr -- lo po -- znat
-  su -- dac bi -- ti, tre -- ner, i -- grač  aha! __ _ "" "" wow! o yeah! __
+  Ne -- tko sla -- van že -- li po -- stat'
+  zna -- ni glu -- mac i -- li pje -- vač,   aha! __ _  Wow!   Oh yeah!
+  _ _ U -- či -- telj vr -- lo po -- znat,
+  su -- dac bi -- ti, tre -- ner, i -- grač,  aha! __ _ "" "" Wow! Oh yeah! __
 }
 
 ref = \lyricmode {
-  A -- li bi -- ti ka -- o Jo -- na -- tan
-  to je pra -- va, to __ je zla -- tna stvar __
-  ne -- se -- bi -- čan, hra -- bar, jak i o -- dan
-  i za me -- ne to je Bo -- žji plan __
-  a -- li bi -- ti ka -- o Jo -- na -- tan
-  to je pra -- va, to __ je zla -- tna stvar __
-  po -- bje -- dit me ne -- će zlo ni strah
-  jer na Bo -- žji sta -- vljen ja sam dlan __
-  po -- bje -- dit me ne -- će zlo ni strah
-  jer Bog i no -- ću, __ jer Bog i no -- ću __
+  A -- li bi -- ti ka -- o Jo -- na -- tan,
+  to je pra -- va, to __ je zla -- tna stvar. __
+  Ne -- se -- bi -- čan, hra -- bar, jak i o -- dan,
+  i za me -- ne to je Bo -- žji plan. __
+  A -- li bi -- ti ka -- o Jo -- na -- tan,
+  to je pra -- va, to __ je zla -- tna stvar. __
+  Po -- bje -- dit' me ne -- će zlo ni strah,
+  jer na Bo -- žji sta -- vljen ja sam dlan. __
+  Po -- bje -- dit me ne -- će zlo ni strah,
+  jer Bog i no -- ću, __ jer Bog i no -- ću, __
   svo -- ju ču -- va kap. __
 }
 
 kiticaB = \lyricmode {
   \set stanza = #"2. "
-  Ne -- tko bo -- gat že -- li po -- stat
-  i -- mat brod, ba -- zen  i vi -- lu __    aha! __ _  wow!  oh yeah!
-  mi -- sli ta -- _ da bit' će sre -- tan __
-  al' u to -- me ni -- je sre -- ća __   ne ne, __ ne ne, __ _ ne ne. __
+  Ne -- tko bo -- gat že -- li po -- stat'
+  i -- mat' brod, ba -- zen  i vi -- lu, __    aha! __ _  Wow!  Oh yeah!
+  Mi -- sli ta -- _ da bit' će sre -- tan __
+  al' u to -- me ni -- je sre -- ća, __   ne ne, __ ne ne, __ _ ne ne! __
 }
 
 \score {

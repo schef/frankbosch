@@ -28,7 +28,7 @@ note = \relative c'' {
   c 8 d c h4. |
   h8 a g fis e d |
   c16 e d c h a h4. |
-  \once \override Score.RehearsalMark.Y-offset = #0.5
+  \once \override Score.RehearsalMark.Y-offset = #0.35
   \once \override Score.RehearsalMark.X-offset = #6
   \mark \default
   
@@ -58,16 +58,16 @@ tekst = \lyricmode {
 %\set stanza = "1."
 \repeat unfold 33 {\skip 8}
 Bli -- zu je Ja -- hve o -- ni -- ma ko -- ji su slo -- mlje -- na sr -- ca,
-a klo -- nu -- le du -- še spa -- ša -- va. Ja -- hve je bli -- zu __
+a klo -- nu -- le du -- še spa -- ša -- va. Ja -- hve je bli -- zu. __
 
-_ _ Pra -- ve -- dni -- ci za -- zi -- va -- ju, i __ _ Ja -- _ _ __ hve ih ču -- je __
+_ _ Pra -- ve -- dni -- ci za -- zi -- va -- ju, i __ _ Ja -- _ _ __ hve ih ču -- je, __
 _ _ i -- zba -- vlja ih iz svih tje -- sko -- ba. __ _ Ja -- hve je bli -- zu.
 }
 
 tekstDva = \lyricmode {
 \repeat unfold 63 {\skip 8}
-Mno -- ge ne -- vo -- lje i -- ma pra -- ve -- dnik a -- li Bog ga od svih i -- zba -- vlja.
-Mno -- ge ne -- vo -- lje i -- ma pra -- ve -- dnik a -- li Ja -- hve je bli -- zu.
+Mno -- ge ne -- vo -- lje i -- ma pra -- ve -- dnik, a -- li Bog ga od svih i -- zba -- vlja.
+Mno -- ge ne -- vo -- lje i -- ma pra -- ve -- dnik, a -- li Ja -- hve je bli -- zu.
 }
 
 %tekstTri = \lyricmode {

@@ -75,7 +75,7 @@ ref = \lyricmode {
 kiticaB = \lyricmode {
   \set stanza = #"2. "
   Ma -- šem te -- bi __ "s ka" -- ži -- pr -- stom,
-  tak ću te __ po -- zdra -- vi -- ti. __
+  tak' ću te __ po -- zdra -- vi -- ti. __
   Ma -- šem on -- da __ des -- nom ru -- kom,
   mi smo stvar -- no sre -- tni -- ci. __
 }
@@ -84,7 +84,7 @@ kiticaC = \lyricmode {
   \set stanza = #"3. "
   %\skip4 \skip4
   Vr -- tim se tad __ o -- ko se -- be, __
-  tak ću te __ po -- zdra -- vi -- ti. __
+  tak' ću te __ po -- zdra -- vi -- ti. __
   Da -- jem sva -- kom svo -- ju ru -- ku, __
   mi smo stvar -- no sre -- tni -- ci. __
 }

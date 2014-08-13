@@ -55,12 +55,12 @@ note = \relative c' {
 
 tekst = \lyricmode {
  Je -- si li i -- kad že -- li -- o __ "" pu -- to -- va -- ti kroz vrije -- me?
- U -- ži -- vo vi -- dje -- ti baš sve __ ne u -- vijek kroz T -- V. __
- O -- tić u do -- ba vi -- te -- za __ "" i pre -- kra -- snih prin -- ce -- za.
- Po -- sje -- tit dvo -- re kra -- ljev -- ske __ i sjest na prije -- sto -- lje. __
+ U -- ži -- vo vi -- dje -- ti baš sve, __ ne u -- vijek kroz T -- V. __
+ O -- tić' u do -- ba vi -- te -- za __ "" i pre -- kra -- snih prin -- ce -- za.
+ Po -- sje -- tit' dvo -- re kra -- ljev -- ske __ i sjest' na prije -- sto -- lje. __
  %
- Da ba -- rem i -- ma na -- čin i -- spu -- nit že -- lju tu. __
- Pu -- to -- va -- ti __ kroz vrije -- me i vi -- djet i -- sti -- nu. __
+ Da ba -- rem i -- ma na -- čin, i -- spu -- nit že -- lju tu. __
+ Pu -- to -- va -- ti __ kroz vrije -- me i vi -- djet' i -- sti -- nu. __
  %
  Vre -- me -- plov, __ _ _ u _ šta -- li -- cu za -- vi -- ri -- ti. __
  Vre -- me -- plov, i du -- bo -- ko do -- ži -- vje -- ti __
@@ -71,14 +71,14 @@ tekstDva = \lyricmode {
  Po -- sto -- ji knji -- ga ču -- de -- sna ko -- ja vo -- di te kroz vrije -- me.
  Jer o -- na taj -- ne ot -- kri -- va __ i sr -- ce o -- tva -- ra. __
  Sa njom se mo -- žeš vra -- ti -- ti __ gdje je po -- če -- lo spa -- se -- nje.
- I tad u -- po -- zna -- ti kroz nju __ tog kra -- lja kra -- lje -- va. __
+ I tad u -- po -- zna -- ti kroz nju, __ tog kra -- lja kra -- lje -- va. __
  %
- Sad znam da i -- ma na -- čin i -- spu -- nit že -- lju tu. __
- Pu -- to -- va -- ti __ kroz vrije -- me i vi -- djet i -- sti -- nu. __
+ Sad znam da i -- ma na -- čin, i -- spu -- nit že -- lju tu. __
+ Pu -- to -- va -- ti __ kroz vrije -- me i vi -- djet' i -- sti -- nu. __
  %
- Vre -- me -- plov, __ ka -- o i Ši --  _ mun že -- lim re -- či gle: __
+ Vre -- me -- plov, __ ka -- o i Ši --  _ mun že -- lim re -- ći gle: __
  Vre -- me -- plov, "\"Sad" o -- či mo -- je vi -- dje -- še __
- o -- Bo -- že tvo -- ga Me -- si -- "ju!\"" __ % { "Luka 2:30" }
+ o, -- Bo -- že, tvo -- ga Me -- si -- "ju!\"" __ % { "Luka 2:30" }
 }
 
 akordi = \chordmode {

@@ -74,18 +74,18 @@ notedrugi = \relative c' {
 }
 
 tekst = \lyricmode {
-  Ne do -- pu -- sti da te svla -- da zlo, __ Ne do -- pu -- sti da te svla -- da zlo. __
+  Ne do -- pu -- sti da te svla -- da zlo, __ ne do -- pu -- sti da te svla -- da zlo. __
 
-  Oooh __ oooh __ već zlo svla -- daj do -- brim!
-  Oooh __ oooh __ već zlo svla -- daj do -- brim!
+  Oooh, __ oooh, __ već zlo svla -- daj do -- brim!
+  Oooh, __ oooh, __ već zlo svla -- daj do -- brim!
 
-  Bu -- di -- te trije -- zni i bdij -- te: __ Vaš pro -- ti -- vnik, đa -- va -- o, __
+  Bu -- di -- te trije -- zni i bdij -- te: __ vaš pro -- ti -- vnik, đa -- va -- o, __
   o -- bi -- la -- zi ka -- o ri -- ču -- ći lav, __ tra -- že -- ći ko -- ga da __ pro -- žde -- re.
 
 }
 
 tekstDva = \lyricmode {
-  Ne do -- pu -- sti da te svla -- da zlo, __ Ne do -- pu -- sti da!
+  Ne do -- pu -- sti da te svla -- da zlo, __ ne do -- pu -- sti da!
 }
 
 akordi = \chordmode {
