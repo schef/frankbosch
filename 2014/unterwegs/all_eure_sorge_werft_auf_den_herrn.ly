@@ -104,8 +104,8 @@ kiticaA = \lyricmode {
   %\skip4 \skip4
   Seht euch die Vö -- gel auf den Fel -- dern an! __
   Sie sä -- hen nicht, sie ern -- ten nicht,
-  Sie hal -- ten sich auch kei -- ne Vor -- rä -- te,
-  Es ver -- sorgt sie eu -- er Va -- ter im Him -- mel.
+  sie hal -- ten sich auch kei -- ne Vor -- rä -- te,
+  es ver -- sorgt sie eu -- er Va -- ter im Him -- mel.
 }
 
 ref = \lyricmode {
@@ -116,9 +116,9 @@ ref = \lyricmode {
 kiticaB = \lyricmode {
   %\set stanza = #"2. "
   So sor -- get euch doch nicht
-  Denn be -- vor ihr bi -- ttet weiß der Va -- ter schon
-  Was euch be -- drückt 
-  Und a -- lles was ihr braucht.
+  denn be -- vor ihr bi -- ttet weiß der Va -- ter schon
+  was euch be -- drückt 
+  und a -- lles was ihr braucht.
 
 }
 

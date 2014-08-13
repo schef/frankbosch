@@ -34,6 +34,7 @@ note = \relative c' {
   g8( e4.) r4 r8 d8 |
   c2 r4 r8
 
+\once \override Staff.BarLine #'extra-spacing-width = #'(-5 . 3)
 \breathemoj
   
   g'8 |
@@ -50,16 +51,16 @@ note = \relative c' {
 
 tekst = \lyricmode {
   %\set stanza = "1."
-  Der HERR be -- hü -- tet dich;
+  Der Herr be -- hü -- tet dich;
   %der HERR ist dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
-  der HERR sei dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
-  dass dir die So -- nne am Tag nicht scha -- ded noch der Mond bei Nacht.
+  der Herr sei dein Scha -- tten ü -- ber dei -- ner __ rech -- ten Hand, __
+  dass dir die So -- nne am Tag nicht scha -- det, noch der Mond bei Nacht.
   %dass dich des Ta -- ges die So -- nne nicht ste -- che
   %noch der Mond des Nachts.
 
-  Der HERR be -- hü -- te dich vor a -- llem Ü -- bel,
+  Der Herr be -- hü -- te dich vor a -- llem Ü -- bel,
   er be -- hü -- te dei -- ne See -- le.
-  Der HERR be -- hü -- te dei -- nen Aus -- gang und Ein -- gang
+  Der Herr be -- hü -- te dei -- nen Aus -- gang und Ein -- gang
   von nun an bis in E -- wig -- keit!
 }
 

@@ -59,12 +59,12 @@ f1 | g | c | e:7 | e:7 |
 kiticaA = \lyricmode {
 \set stanza = #"1. "
 %\skip4 \skip4
-Ich will dir dan -- ken, Herr, __ un -- ter den Völ -- _ kern, __
-Ich will dir lob -- sin -- gen __  un -- ter den Leu -- _ ten. __
+Ich will dir dan -- ken, Herr, __ un -- ter den Völ -- _ kern. __
+Ich will dir lob -- sin -- gen, __  un -- ter den Leu -- _ ten. __
 }
 
 ref = \lyricmode {
-Denn dei -- ne Gna -- de, Dei -- ne Gna -- _ _ de
+Denn dei -- ne Gna -- de, dei -- ne Gna -- _ _ de
 reicht so weit der Hi -- mmel ist. __
 Und dei -- ne Treu -- e, so weit die Wol -- ken gehn'. __
 Denn dei -- ne

@@ -74,7 +74,7 @@ dü -- rrem Land,
 wo kein Wa -- sser ist.
 
 So scha -- ue ich aus nach dir in dei -- nem Hei -- lig -- tum, 
-Woll -- te ger -- ne se -- hen dei -- ne Macht und Herr -- lich -- keit.
+woll -- te ger -- ne se -- hen dei -- ne Macht und Herr -- lich -- keit.
 Denn dei -- ne Gü -- te ist be -- sser als Le -- ben; 
 mei -- ne Li -- ppen prei -- sen dich.
 So will ich dich lo -- ben mein Le -- ben lang 
