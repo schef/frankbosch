@@ -49,6 +49,7 @@ r1 |
 \bar "||"
 \break
 
+\once \override Score.RehearsalMark.Y-offset = #3.4
 \mark \default
 r4 f4 f8 f4 e8 ~ |
 e2 r2 |
@@ -114,9 +115,9 @@ i vaš ih O -- tac Ne -- be -- ski hra -- ni.
 
 ref = \lyricmode {
 Svu svo -- ju bri -- gu __ ba -- ci -- te na Bo -- ga,
-jer se on bri -- ne za vas. __
+jer se On bri -- ne za vas. __
 Svu svo -- ju bri -- gu __ ba -- ci -- te na Nje -- ga,
-jer se on bri -- ne za vas. __
+jer se On bri -- ne za vas. __
 }
 
 kiticaB = \lyricmode {

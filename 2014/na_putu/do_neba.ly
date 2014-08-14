@@ -62,7 +62,7 @@ akordi = \chordmode {
   a1:m | g | e:7 | a:m |
   f1 | g | c | e:7 |
   \set chordChanges = ##f
-  e:7 |
+  c |
 }
 
 kiticaA = \lyricmode {
@@ -81,7 +81,7 @@ ref = \lyricmode {
 kiticaB = \lyricmode {
   \set stanza = #"2. "
   Uz -- vi -- si se, Bo -- že, __ nad ne -- be -- _ sa, __ _  
-  nek sla -- va tvo -- _ ja __ je nad svom ze -- _ mljom!
+  nek sla -- va tvo -- _ ja __ je nad svom ze -- _ mljom,
 }
 
 %kiticaC = \lyricmode {

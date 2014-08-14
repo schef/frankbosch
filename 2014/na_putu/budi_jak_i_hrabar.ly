@@ -77,7 +77,7 @@ akordi = \chordmode {
 }
 
 rijeci = \lyricmode {
-  Raz -- mi -- šljaj o Bi -- bli -- ji  da -- nju i no -- ću, 
+  Raz -- mi -- šljaj o Bi -- bli -- ji,  da -- nju i no -- ću, 
   ka -- ko bi vjer -- no dr -- ža -- o sve što je u njoj na -- pi -- sa -- no: __ 
   sa -- mo ćeš ta -- da bi -- ti sre -- tan __ i us -- pjet ćeš u pot -- hva -- ti -- ma. __ 
   Ni -- sam li ti za -- po -- vje -- di -- o, ni -- sam li ti za -- po -- vje -- di -- o: 
@@ -85,8 +85,8 @@ rijeci = \lyricmode {
   Bu -- di jak i  hra -- bar, 
   ne boj se i ne stra -- huj, 
   jer ku -- da god po -- đeš, "s to" -- bom je Bog tvoj.
-  Bu -- di jak i hra -- bar 
-  Ne boj se i ne stra -- huj, 
+  Bu -- di jak i hra -- bar, 
+  ne boj se i ne stra -- huj, 
   jer ku -- da god po -- đeš, "s to" -- bom je Bog tvoj.  
 }
 

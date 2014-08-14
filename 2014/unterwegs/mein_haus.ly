@@ -147,28 +147,28 @@ akordi = \chordmode {
 }
 
 rijeci = \lyricmode {
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker.  
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt.
+  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker.  
+  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für a -- lle Welt.
 
-  \set stanza = "1." Geht an die Hec -- ken, geht an die Zäu -- ne,  geht auf die Stra -- ßen, geht auf die Plät -- ze
+  \set stanza = "1." Geht an die Hec -- ken, geht an die Zäu -- ne,  geht auf die Stra -- ßen, geht auf die Plät -- ze __
   und la -- det sie ein in mein Haus.
   
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt.
+  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
+  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für a -- lle Welt.
   
   \set stanza = "3." Geht zu den Star -- ken, geht zu den Herr -- schern geht zu den Rei -- chen geht zu den Sa -- tten
   und la -- det sie ein in mein Haus.
   
   Das E -- van -- ge -- li -- um muss ver -- kün -- digt wer -- den un -- ter a -- llen Völ -- kern
-  und sie -- he ich bin bei euch, a -- lle Ta -- ge bis an der Welt En -- de.
+  und sie -- he ich bin bei euch, a -- lle Ta -- ge bis an der Welt __ En -- de.
   
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
-  Mein Haus soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Welt.
+  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
+  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für a -- lle Welt. __
 }
 
 rijeciDva = \lyricmode {
   \repeat unfold 29 _
-  Geht in die Dör -- fer, geht in die Städ -- te, geht in den Dschun -- gel, geht auf die In -- seln
+  Geht in die Dör -- fer, geht in die Städ -- te, geht in den Dschun -- gel, geht auf die In -- seln __
   und ich ge -- he euch selbst vor -- aus.
   
   \repeat unfold 29 _
@@ -179,13 +179,13 @@ rijeciDva = \lyricmode {
 
 rijeciTri = \lyricmode {
   \repeat unfold 29 _
-  \set stanza = "2." Geht zu den Kin -- dern, gebt ih -- nen Hoff -- nung, gebt ih -- nen Glau -- ben, gebt ih -- nen Lie -- be
+  \set stanza = "2." Geht zu den Kin -- dern, gebt ih -- nen Hoff -- nung, gebt ih -- nen Glau -- ben, gebt ih -- nen Lie -- be __
   und la -- det sie ein in mein Haus.
 }
 
 rijeciCetiri = \lyricmode {
   \repeat unfold 29 _
-  Gebt ih -- nen E -- ssen, gebt ih -- nen Klei -- der,  gebt ih -- nen Wär -- me und ein Zu -- hau -- se
+  Gebt ih -- nen E -- ssen, gebt ih -- nen Klei -- der,  gebt ih -- nen Wär -- me und ein Zu -- hau -- se __
   und ich ge -- he euch selbst vor -- aus.
 }
 

@@ -102,15 +102,15 @@ akordi = \chordmode {
 kiticaA = \lyricmode {
   %\set stanza = #"1. "
   %\skip4 \skip4
-  Seht euch die Vö -- gel auf den Fel -- dern an! __
-  Sie sä -- hen nicht, sie ern -- ten nicht,
+  Seht euch die Vö -- gel auf __ den Fel -- dern an! __
+  Sie sä -- hen nicht, __ sie ern -- ten nicht, __
   sie hal -- ten sich auch kei -- ne Vor -- rä -- te,
   es ver -- sorgt sie eu -- er Va -- ter im Him -- mel.
 }
 
 ref = \lyricmode {
-  All eu -- re Sor -- ge __ werft doch auf den Herrn, __ _ denn Er sorgt für euch.
-  All eu -- re Sor -- ge __ werft  auf Ihn; __ _ denn Er sorgt für euch.
+  All eu -- re Sor -- ge __ werft doch auf den Herrn, __ _ denn Er sorgt __ für euch.
+  All eu -- re Sor -- ge __ werft __  auf Ihn; __ _ denn Er sorgt __ für euch.
 }
 
 kiticaB = \lyricmode {

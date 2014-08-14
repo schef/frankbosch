@@ -73,7 +73,7 @@ Vor dir ist dann nur ei -- ne Mau -- er zu sehen.
 Hil -- fe fin -- dest du bei dem e -- wi -- gen Gott.
 Sei -- ne Wor -- te sind Trost in der Not:
 
-„Fürch -- te dich nicht, Ich bin mit dir; 
+„Fürch -- te dich nicht, Ich bin mit dir; __ 
 wei -- che nicht, denn ich bin dein Gott. 
 Ich stär -- ke dich, Ich hel -- fe dir auch, 
 Ich hal -- te dich durch die rech -- te Hand 

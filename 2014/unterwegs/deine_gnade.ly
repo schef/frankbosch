@@ -53,7 +53,7 @@ akordi = \chordmode {
 a2:m d:m | a:m e:7 | a:m g | c  e:7 |
 a2:m d:m | a1:m | a2:m e:7 | a1:m |
 a1:m | g | e:7 | a:m |
-f1 | g | c | e:7 | e:7 |
+f1 | g | c | e:7 | c |
 }
 
 kiticaA = \lyricmode {

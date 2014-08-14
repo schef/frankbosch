@@ -83,16 +83,16 @@ note = \relative c' {
 }
 
 tekst = \lyricmode {
-  Pun po -- go -- dak si ti, __ pun po -- go -- dak sam ja __
+  Pun po -- go -- dak si ti, __ pun po -- go -- dak sam ja, __
   Bo -- žji pu -- ni po -- go -- dak smo mi. __
-  Nas je stvo -- ri -- o __ ta -- ko ču -- de -- sno, __
-  Iz Bi -- bli -- je to zna -- mo i __ ve -- se -- li -- mo se svi __
+  Nas je stvo -- ri -- o, __ ta -- ko ču -- de -- sno. __
+  Iz Bi -- bli -- je to zna -- mo i __ ve -- se -- li -- mo se svi. __
 
   \set stanza = "1."
-  Za -- to pet mi daj __ i no -- gom lu -- pi -- mo __ ""
+  Za -- to pet mi daj __ i no -- gom lu -- pi -- mo. __ ""
   _ Pet mi daj __ i Bo -- ga hva -- li -- mo: __
 
-  Bo -- že hva -- la ti, __ što sam stvo -- ren ta -- ko ču -- de -- sno 
+  Bo -- že, hva -- la ti, __ što sam stvo -- ren ta -- ko ču -- de -- sno, 
   što su tvo -- ja dje -- la pre -- di -- vna. __
   što su tvo -- ja dje -- la pre -- di -- vna. __
 }
@@ -100,7 +100,7 @@ tekst = \lyricmode {
 tekstDva = \lyricmode {
   \repeat unfold 45 {\skip 8}
   \set stanza = "2."
-  Za -- to pet mi daj __ i gla -- vom tre -- si -- mo __ "" 
+  Za -- to pet mi daj __ i gla -- vom tre -- si -- mo. __ "" 
   _ Pet mi daj __ i Bo -- ga hva -- li -- mo: __
 }
 
