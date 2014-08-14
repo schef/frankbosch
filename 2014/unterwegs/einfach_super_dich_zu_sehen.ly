@@ -85,7 +85,8 @@ kiticaC = \lyricmode {
     \addlyrics { \kiticaB }
     \addlyrics { \kiticaC }
   >>
-  %	\midi {}
+  \layout {}
+  \midi {}
 }
 
 
