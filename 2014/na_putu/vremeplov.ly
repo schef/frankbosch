@@ -134,6 +134,32 @@ akordi = \chordmode {
 \midi { \tempo 4 = 79 }
 }
 
+\markup {
+  \vspace #2
+  \smaller \italic Leadsheet: \hspace #2
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {intro [4]} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse 1.} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 2 \teeny \italic bridge }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3-4 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse 2.} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 2 \teeny \italic bridge }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3-4 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {modulacija+1 [G]} }
+    }
+  }
+}
+\markup {
+  \hspace #11.8
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3-4 \teeny \italic chorus } \bold \teeny \italic 2.}
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3-4 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3 \teeny \italic chorus } \bold \teeny \italic {end x2}}
+    }
+  }
+}
 
 %{
 convert-ly (GNU LilyPond) 2.18.2  convert-ly: Processing `'...
