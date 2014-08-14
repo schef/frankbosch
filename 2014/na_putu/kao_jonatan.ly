@@ -5,11 +5,15 @@
   composer = "Frank Bosch"
   title = "KAO JONATAN"
   titlex = "Na putu"
-  broj = "9."
+  broj = "9"
   style = "Dražen Radman"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c' {
   \once \override Score.MetronomeMark.X-offset = #8

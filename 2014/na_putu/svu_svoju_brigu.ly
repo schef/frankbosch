@@ -6,9 +6,14 @@
     title = "SVU SVOJU BRIGU"
     titlex = "Na putu"
     style = "1. Petrova 5,7; Matej 6,26+6,8"
+    broj = "7"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourR
+}
 
 note = \relative c'' {
     \once \override Score.MetronomeMark.break-align-symbols = #'(time-signature)

@@ -7,9 +7,14 @@
   titlex = "Na putu"
   composer = "Frank Bosch"
   style = "Dražen Radman"
+  broj = "4"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c' {
   \key c \major

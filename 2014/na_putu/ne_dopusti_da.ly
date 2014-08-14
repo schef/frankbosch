@@ -7,9 +7,14 @@
   titlex = "Na putu"
   composer = "Frank Bosch"
   style = "Rimljanima 12,21"
+  broj = "10"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 noteprvi = \relative c' {
   \key f \major

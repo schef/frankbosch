@@ -7,9 +7,14 @@
   titlex = "Na putu"
   composer = "Frank Bosch"
   style = "Psalam 139,14"
+  broj = "11"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c' {
   \key e \major
