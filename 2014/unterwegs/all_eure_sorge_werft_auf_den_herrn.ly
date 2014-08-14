@@ -6,9 +6,14 @@
   title = "ALL EURE SORGE"
   titlex = "Unterwegs"
   style = "1. Petrus 5,7; Matth. 6,8+26"
+  broj = "4"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c'' {
   \once \override Score.MetronomeMark.self-alignment-X = #-1.05

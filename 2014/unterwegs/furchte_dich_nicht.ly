@@ -8,9 +8,14 @@
   titlex = "Unterwegs"
   composer = "Frank Bosch"
   style = "Jesaja 41,10"
+  broj = "7"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourR
+}
 
 note = \relative c' {
   \once \override Score.MetronomeMark.self-alignment-X = #-1.05

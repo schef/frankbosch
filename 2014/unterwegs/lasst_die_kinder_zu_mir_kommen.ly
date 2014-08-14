@@ -6,10 +6,15 @@
   style = "Markus 10,14+16"
   title = "LASST DIE KINDER"
   titlex = "Unterwegs"
+  broj = "5"
 
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourR
+}
 
 note = \relative c'' {
   \once \override Score.MetronomeMark.self-alignment-X = #-1.05

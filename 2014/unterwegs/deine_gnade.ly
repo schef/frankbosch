@@ -6,9 +6,14 @@
     style = "Psalm 108,4-6"
     title = "DEINE GNADE"
     titlex = "Unterwegs"
+    broj = "8"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c' {
   \once \override Score.MetronomeMark.self-alignment-X = #-1.05
