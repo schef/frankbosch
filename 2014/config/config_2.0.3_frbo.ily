@@ -25,7 +25,7 @@ myStaffSize = #22
   score-markup-spacing #'padding = #5
   top-system-spacing #'padding = #5
 
-  markup-markup-spacing #'padding = #3
+  markup-markup-spacing #'padding = #2
 
   system-system-spacing #'padding = #2
   %system-system-spacing #'minimum-distance = #1
