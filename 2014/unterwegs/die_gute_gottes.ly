@@ -5,10 +5,14 @@
   composer = "Frank Bosch"
   title = "DIE GÜTE GOTTES"
   titlex = "Unterwegs"
-  broj = "1."
+  broj = "1"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c' {
   \once \override Score.MetronomeMark #'outside-staff-priority = #1 

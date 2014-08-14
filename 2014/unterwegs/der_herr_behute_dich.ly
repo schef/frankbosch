@@ -7,9 +7,14 @@
   titlex = "Unterwegs"
   composer = "Frank Bosch"
   style = "Psalm 121,5-8"
+  broj = "9"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourR
+}
 
 note = \relative c' {
   \key c \major

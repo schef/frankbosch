@@ -5,10 +5,14 @@
   composer = "Frank Bosch"
   title = "BAŠ JE FORA ŠTO TE VIDIM"
   titlex = "Na putu"
-  broj = "3."
+  broj = "3"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourR
+}
 
 note = \relative c' {
   \once \override Score.MetronomeMark #'outside-staff-priority = #1 

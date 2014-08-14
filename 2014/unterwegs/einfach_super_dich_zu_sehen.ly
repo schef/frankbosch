@@ -6,9 +6,14 @@
   style = ""
   title = "EINFACH SUPER DICH ZU SEHEN"
   titlex = "Unterwegs"
+  broj = "6"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c' {
   \once \override Score.MetronomeMark.self-alignment-X = #-1.05
@@ -85,7 +90,8 @@ kiticaC = \lyricmode {
     \addlyrics { \kiticaB }
     \addlyrics { \kiticaC }
   >>
-  %	\midi {}
+  \layout {}
+  \midi {}
 }
 
 

@@ -6,9 +6,14 @@
   style = "Jošua 1,8-9"
   composer = "Frank Bosch"
   titlex = "Na putu"
+  broj = "2"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = {
   \key d \minor
@@ -93,6 +98,7 @@ rijeci = \lyricmode {
     \addlyrics { \rijeci }
   >>
   \layout {}
+  \midi {}
 }
 
 \markup {

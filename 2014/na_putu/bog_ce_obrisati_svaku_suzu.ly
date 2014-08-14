@@ -7,9 +7,14 @@
   titlex = "Na putu"
   composer = "Frank Bosch"
   style = "Otkrivenje 20,4+5b+6"
+  broj = "13"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourR
+}
 
 %salsa ritam?
 

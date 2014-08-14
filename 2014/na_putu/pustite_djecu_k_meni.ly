@@ -6,10 +6,15 @@
   style = "Marko 10,14+16"
   title = "PUSTITE DJECU K MENI"
   titlex = "Na putu"
+  broj = "8"
 
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c'' {
   \once \override Score.MetronomeMark.Y-offset = #3

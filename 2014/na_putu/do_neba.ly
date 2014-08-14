@@ -6,9 +6,14 @@
   style = "Psalam 108,4-6"
   title = "DO NEBA"
   titlex = "Na putu"
+  broj = "12"
 }
 
 \include "s02_frbo.ily"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c' {
   \once \override Score.MetronomeMark #'outside-staff-priority = #1 

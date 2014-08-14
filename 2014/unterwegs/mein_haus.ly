@@ -9,10 +9,15 @@
   composer = "Frank Bosch"
   style = "Markus 11,17; Jesaja 56,7"
   titlex = "Unterwegs"
+  broj = "10"
 }
 
 \include "s02_frbo.ily"
 \include "deutsch.ly"
+
+\paper {
+ \aFourL
+}
 
 note = \relative c' {
   \once \override Score.MetronomeMark.self-alignment-X = #-1.05
