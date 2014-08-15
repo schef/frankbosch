@@ -14,6 +14,7 @@
 
 \paper {
  \aFourR
+ last-bottom-spacing #'padding = #0
 }
 
 %salsa ritam?
