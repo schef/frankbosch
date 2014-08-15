@@ -67,7 +67,7 @@ note = \relative c'' {
   a4 g2. |
   r2 r4 d4 |
   \bar "||"
-  %\break
+  \break
 
   \once \override Score.RehearsalMark.padding = #-0.1
   \once \override Score.RehearsalMark.self-alignment-X = #0.1
