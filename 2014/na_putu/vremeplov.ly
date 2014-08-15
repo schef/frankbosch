@@ -156,7 +156,7 @@ akordi = \chordmode {
     \rounded-box {
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3-4 \teeny \italic chorus } \bold \teeny \italic 2.}
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3-4 \teeny \italic chorus } }
-      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3 \teeny \italic chorus } \bold \teeny \italic {end x2}}
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 4 \teeny \italic chorus } \bold \teeny \italic {end x2}}
     }
   }
 }
