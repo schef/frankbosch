@@ -206,3 +206,30 @@ rijeciCetiri = \lyricmode {
   \layout {}
   \midi {\tempo 4 = 240}
 }
+
+\markup {
+  \vspace #2
+  \smaller \italic Leadsheet: \hspace #2
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {intro [8]} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny {verse 1.} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny {verse 2.} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 4 \italic \teeny {verse 3.} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 5 \italic \teeny {bridge} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 6 \teeny \italic chorus } }			
+      %\line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {outro [9]} }
+    }
+  }
+}
+\markup {
+  \hspace #11.8
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \teeny \italic {outro [25]} }
+    }
+  }
+}

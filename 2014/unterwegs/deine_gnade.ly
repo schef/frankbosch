@@ -97,6 +97,20 @@ und dei -- ne Herr -- lich -- keit __ ü -- _ ber a -- lle Welt. __
 %	\midi {}
 	}
 
+\markup {
+  \vspace #2
+  \smaller \italic Leadsheet: \hspace #2
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {intro [4]} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse} }     
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } \bold \italic \tiny x2}			
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {outro [4]} }
+    }
+  }
+}
 
 %{
 convert-ly (GNU LilyPond) 2.18.2  convert-ly: Processing `'...

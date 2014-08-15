@@ -12,6 +12,11 @@
 
 \include "s02_frbo.ily"
 
+breathemojCustom = {
+\breathemoj
+\once \override Staff.BarLine #'extra-spacing-width = #'(-5 . 3)
+}
+
 \paper {
  \aFourR
 }
@@ -39,8 +44,7 @@ note = \relative c' {
   g8( e4.) r4 r8 d8 |
   c2 r4 r8
 
-\once \override Staff.BarLine #'extra-spacing-width = #'(-5 . 3)
-\breathemoj
+\breathemojCustom
   
   g'8 |
   c4. c8 h8 a g e |
@@ -104,6 +108,22 @@ akordi = \chordmode {
     \new Staff { \note }
   >>
   \midi { \tempo 4 = 74 }
+}
+
+\markup {
+  \vspace #2
+  \smaller \italic Leadsheet: \hspace #2
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {intro [2]} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse} }     
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } \bold \italic \tiny x2}
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic :13-16 } }			
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {outro [6]} }
+    }
+  }
 }
 
 %\markup {

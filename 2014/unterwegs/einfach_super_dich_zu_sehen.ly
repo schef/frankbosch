@@ -94,6 +94,23 @@ kiticaC = \lyricmode {
   \midi {}
 }
 
+\markup {
+  \vspace #2
+  \smaller \italic Leadsheet: \hspace #2
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {intro [8]} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny verse }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse 2.} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse 3.} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus \bold \tiny \italic ×2  } }
+      %\line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \teeny \italic {outro [4]} }
+    }
+  }
+}
 
 %{
 convert-ly (GNU LilyPond) 2.18.2  convert-ly: Processing `'...

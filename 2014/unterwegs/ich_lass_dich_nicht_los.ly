@@ -98,6 +98,23 @@ akordi = \chordmode {
   \midi { \tempo 4 = 94 }
 }
 
+\markup {
+  \vspace #2
+  \smaller \italic Leadsheet: \hspace #2
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {intro [12]} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny {verse} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny {verse} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic chorus } \teeny \bold \italic x3}
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic :7-8 } \teeny \bold \italic x2}			
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {outro [9]} }
+    }
+  }
+}
+
 %\markup {
 %\vspace #2
 %\smaller \italic Leadsheet: \hspace #2

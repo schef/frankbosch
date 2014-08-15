@@ -21,7 +21,7 @@ myStaffSize = #22
   markup-system-spacing #'padding = #5
   markup-system-spacing #'stretchability = #5
   score-system-spacing #'padding = #5
-  %last-bottom-spacing #'padding = #3.5
+  %last-bottom-spacing #'padding = #5
   score-markup-spacing #'padding = #5
   top-system-spacing #'padding = #5
 

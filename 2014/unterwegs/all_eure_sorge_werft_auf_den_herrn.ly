@@ -144,6 +144,34 @@ kiticaB = \lyricmode {
   %	\midi {}
 }
 
+\markup {
+  \vspace #3
+  \smaller \italic Leadsheet: \hspace #2
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \teeny \italic {intro [8]} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny verse }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 2 \italic \teeny verse }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \teeny \italic chorus } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 3 \teeny \italic bridge }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \italic \teeny chorus \bold \tiny \italic ×2 } }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \italic \teeny :13-16} }
+      %\line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \teeny \italic {outro [2]} }
+
+    }
+  }
+}
+\markup {
+  \hspace #11.8
+  \huge {
+    \rounded-box {
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 1 \italic \teeny :13-14} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \teeny \italic {outro [2]} }
+    }
+  }
+}
 
 %\markup {
 %\vspace #2
