@@ -64,6 +64,7 @@ note = \relative c'' {
     {
       h4 h2 r4 |
       h4( a2) gis8 gis ~ |
+      \pageBreak
       gis8 fis ~ fis2. |
       r1 |
     }

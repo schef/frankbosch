@@ -21,17 +21,23 @@ myStaffSize = #22
   markup-system-spacing #'padding = #5
   markup-system-spacing #'stretchability = #5
   score-system-spacing #'padding = #5
-  last-bottom-spacing #'padding = #5
+  %last-bottom-spacing #'padding = #3.5
   score-markup-spacing #'padding = #5
   top-system-spacing #'padding = #5
 
-  markup-markup-spacing #'padding = #2
+  markup-markup-spacing #'padding = #1
+  %markup-markup-spacing #'stretchability = #0
+  %markup-markup-spacing #'minimum-distance = #0
+  %markup-markup-spacing #'basic-distance = #0
 
   system-system-spacing #'padding = #2
   %system-system-spacing #'minimum-distance = #1
   system-system-spacing #'stretchability = #0
   score-system-spacing #'stretchability = #5
   print-page-number = ##f
+  last-bottom-spacing #'minimum-distance =#0
+  score-markup-spacing #'stretchability = #0
+
   %first-page-number = #16
   %print-first-page-number = ##t
   %auto-first-page-number = ##t

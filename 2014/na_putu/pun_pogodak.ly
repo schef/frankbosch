@@ -60,6 +60,7 @@ note = \relative c' {
   \mark \default
   
   \repeat volta 2 {
+    %\pageBreak
     gis4 h h h8 cis ~ |
     cis2 a8 gis4 fis8 ~ |
     fis4 fis h8 a4 a8 ~ |
@@ -151,7 +152,7 @@ akordi = \chordmode {
 %outro E x4
 
 \markup {
-  \vspace #2
+  \vspace #3
   \smaller \italic Leadsheet: \hspace #2
   \huge {
     \rounded-box {

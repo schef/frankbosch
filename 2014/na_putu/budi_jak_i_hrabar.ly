@@ -44,6 +44,7 @@ note = {
   g'8 g' g' g' a' b'4 b'8 ~ |
   b' a' a'4 r g'8 a' |
   
+  \break
   \once \override Score.RehearsalMark.Y-offset = #4
   \mark \default
   b'4 b' c''8 b' a' g' |
