@@ -53,6 +53,7 @@ myStaffSize = #22
   line-width = 170 \mm %paper-width - 20mm
   bottom-margin = 12 \mm
   oddHeaderMarkup = \markup \teeny \on-the-fly #not-first-page {
+    \vspace #2
     \fill-line {
       \on-the-fly #not-part-first-page {
         \italic \fromproperty #'header:title
@@ -62,6 +63,7 @@ myStaffSize = #22
     }
   }
   evenHeaderMarkup = \markup \teeny \on-the-fly #not-first-page {
+    \vspace #2
     \fill-line {
       \on-the-fly #not-part-first-page {
         \override #'(font-name . "JohnSans White Pro Italic") \fromproperty #'header:title
