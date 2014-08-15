@@ -43,8 +43,10 @@ note = \relative c' {
   fis4 g fis |
   e2. |
   r2. |
+  \break
   
-  \once \override Score.RehearsalMark.self-alignment-X = #0.6
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.4
+  \once \override Score.RehearsalMark.self-alignment-Y = #-0.7
   \once \override Score.RehearsalMark.padding = #0
   \mark \default a4 g fis |
   e2. |
