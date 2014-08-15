@@ -44,7 +44,9 @@ note = \relative c' {
   e2. |
   r2. |
   
-  \breathemoj a4 g fis |
+  \once \override Score.RehearsalMark.self-alignment-X = #0.6
+  \once \override Score.RehearsalMark.padding = #0
+  \mark \default a4 g fis |
   e2. |
   d4 e fis |
   fis8( e ~ e2) |
