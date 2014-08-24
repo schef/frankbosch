@@ -88,7 +88,7 @@ und hin -- dert sie, nicht da -- ran, __ _ hin -- dert sie nicht. __ _ Denn
 
 ref = \lyricmode {
 Das sag -- te uns Je -- sus, der die Kind -- er lieb hat, 
-der sie in den Arm nahm und sie se -- gne --  te.
+der sie in den Arm nahm und sie seg -- ne --  te.
 }
 
 kiticaB = \lyricmode {

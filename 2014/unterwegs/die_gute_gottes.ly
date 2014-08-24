@@ -121,7 +121,7 @@ kiticaC = \lyricmode {
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse} }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {solo [8]} }
-      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {modulacija} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {modulation} }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic chorus } \teeny \bold \italic x2}
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 2 \teeny \italic :15-16 } }			
       %\line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {outro [9]} }

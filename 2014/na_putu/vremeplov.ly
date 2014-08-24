@@ -146,7 +146,7 @@ akordi = \chordmode {
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 0) 1 \italic \teeny {verse 2.} }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) 2 \teeny \italic bridge }
       \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \bold { 3-4 \teeny \italic chorus } }
-      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {modulacija+1 [G]} }
+      \line { \pad-to-box #'(0 . 0) #'(-0.34 . 1.85) \italic \teeny {modulation+1 [G]} }
     }
   }
 }

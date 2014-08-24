@@ -7,7 +7,7 @@
   title = "ICH LASS DICH NICHT LOS"
   titlex = "Unterwegs"
   composer = "Frank Bosch"
-  style = "1. Mose 32,37"
+  style = "1. Mose 32,27"
   broj = "2"
 }
 
@@ -54,8 +54,8 @@ note = \relative c'' {
 
 tekst = \lyricmode {
 %\set stanza = "1."
-Ich __ lass Dich nicht los, __ bis Du mich se -- gnest Herr __
-Ich __ lass Dich nicht los, __ bis Du mich se -- gnest Herr __ 
+Ich __ lass Dich nicht los, __ bis Du mich se -- gnest Herr. __
+Ich __ lass Dich nicht los, __ bis Du mich se -- gnest Herr. __ 
 Du Va -- ter in dem Him -- mel sprich
 Dein Wort des Se -- gens ü -- ber mich,
 auf dass ich froh den neu -- en Tag __

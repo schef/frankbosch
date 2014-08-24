@@ -152,23 +152,23 @@ akordi = \chordmode {
 }
 
 rijeci = \lyricmode {
-  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker.  
-  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für a -- lle Welt.
+  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für al -- le Völ -- ker.  
+  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für al -- le Welt.
 
   \set stanza = "1." Geht an die Hec -- ken, geht an die Zäu -- ne,  geht auf die Stra -- ßen, geht auf die Plät -- ze __
   und la -- det sie ein in mein Haus.
   
-  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
-  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für a -- lle Welt.
+  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für al -- le Völ -- ker  
+  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für al -- le Welt.
   
   \set stanza = "3." Geht zu den Star -- ken, geht zu den Herr -- schern geht zu den Rei -- chen geht zu den Sa -- tten
   und la -- det sie ein in mein Haus.
   
-  Das E -- van -- ge -- li -- um muss ver -- kün -- digt wer -- den un -- ter a -- llen Völ -- kern
-  und sie -- he ich bin bei euch, a -- lle Ta -- ge bis an der Welt __ En -- de.
+  Das E -- van -- ge -- li -- um muss ver -- kün -- digt wer -- den un -- ter al -- len Völ -- kern
+  und sie -- he ich bin bei euch, al -- le Ta -- ge bis an der Welt __ En -- de.
   
-  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für a -- lle Völ -- ker  
-  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für a -- lle Welt. __
+  Mein Haus __ soll ein Bet -- haus sein, ein Bet -- haus  für al -- le Völ -- ker  
+  Mein Haus __ soll ein Bet -- haus sein, __ ein Bet -- haus  für al -- le Welt. __
 }
 
 rijeciDva = \lyricmode {
