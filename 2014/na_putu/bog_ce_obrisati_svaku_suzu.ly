@@ -3,7 +3,7 @@
 %\language "deutsch"
 
 \header {
-  title = "BOG ĆE OBRISATI SVAKU SUZU"
+  title = "BOG ĆE OBRISAT´ SVAKU SUZU"
   titlex = "Na putu"
   composer = "Frank Bosch"
   style = "Otkrivenje 20,4+5b+6"
@@ -94,8 +94,8 @@ tekstDva = \lyricmode {
 %}
 
 akordi = \chordmode {
-  g2:m7 c:7 | f:maj7 b:maj7 | e:m7.5- a:7 | d1:m |
-  g2:m7 c:7 | f:maj7 b:maj7 | e:m7.5- a:7 | d1:m |
+  g2:m7 c:7 | f:maj7 b:maj7 | e:m a:7 | d1:m |
+  g2:m7 c:7 | f:maj7 b:maj7 | e:m a:7 | d1:m |
   
   a2:7 d:m |
   c2 f | a:7 d:m | c d:m | c d:m |

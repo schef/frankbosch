@@ -74,11 +74,11 @@ note = \relative c' {
 akordi = \chordmode {
   \set chordChanges = ##t
   \skip 4
-  f1 | f | f | f |
-  c1 | b | f | f |
-  f1 | f | f | f |
-  c1 | b | f |
-  f1 | f | b | f |
+  f1:7 | f:7 | f:7 | f:7 |
+  c1:7 | b:7 | f:7 | f:7 |
+  f1:7 | f:7 | f:7 | f:7 |
+  c1:7 | b:7 | f:7 |
+  f1:7 | f | b | f |
   f1 | b | f | c |
   f1 | b | f | f |
   b1 | f1 | f | f |

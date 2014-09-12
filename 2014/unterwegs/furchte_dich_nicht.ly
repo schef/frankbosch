@@ -115,7 +115,7 @@ akordi = \chordmode {
   e2.:m | g/d | a:sus4 | a | d | a/d | g |
   a2. | d | a | g | a | g | 
   fis2.:m | g | a | g | fis:m | g | a |
-  d2. | a | g | d | g | a | d | d |
+  d2. | a/cis | g | d | g:maj7 | a | d | d |
 }
 
 \score {

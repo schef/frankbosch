@@ -87,7 +87,7 @@ akordi = \chordmode {
   c2 g/h | c/e f | c/g g | c g |
   c2 g/h | c/e f | c/g g | c g/h |
   a2:m g | f c/e | d:m f | g gis:dim |
-  a2:m g | f c/e | d4:m f g2 | c2 c4 c8
+  a2:m g | f c/e | d4:m f g4:sus4 g | c2 c4 c8
 
 }
 

@@ -58,7 +58,7 @@ note = \relative c' {
 akordi = \chordmode {
   \set chordChanges = ##t
   %\skip 2
-  cis1:m | a | cis:m | a |
+  cis2:m h | a1 | cis2:m h | a1 |
   gis2:m7 cis:m | a:maj7 h |
   gis2:m7 cis:m | a:maj7 a4 h4 |
   
