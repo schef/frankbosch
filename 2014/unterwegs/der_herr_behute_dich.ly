@@ -18,7 +18,7 @@ breathemojCustom = {
 }
 
 \paper {
- \aFourR
+ \aFourL
 }
 
 note = \relative c' {

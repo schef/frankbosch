@@ -13,7 +13,7 @@
 \include "s02_frbo.ily"
 
 \paper {
- \aFourR
+ \aFourL
  last-bottom-spacing #'padding = #0
 }
 

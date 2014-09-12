@@ -14,7 +14,7 @@
 \include "s02_frbo.ily"
 
 \paper {
- \aFourR
+ \aFourL
 }
 
 note = \relative c' {
