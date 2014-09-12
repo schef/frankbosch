@@ -112,7 +112,7 @@ akordi = \chordmode {
   c2/e d:m | c1 |
   d2:m a | a:7/cis d:m |
   d2:m c | a:7/cis d:m |
-  d2:m c | a:7/cis |
+  d2:m c | a1:7/cis |
 }
 
 \score {
